@@ -10,7 +10,26 @@
 
 <body>
   <div id="app">
-    {{nickname}}
+    <div>
+      <fieldset>
+        <legend>
+          添加文件
+        </legend>
+        <h1>
+          {{nickname}} -- {{img}}
+        </h1>
+        <div>
+          <!-- $event vue内置对象，代表当前的事件对象 -->
+          图片<input type="text" :value="img" @input="img = $event.target.value">
+        </div>
+        <div>
+          名字 <input type="text" :value="nickname"  @input="nickname = $event.target.value">
+        </div>
+        <div>
+          <button @click = "add">添加</button>
+        </div>
+      </fieldset>
+    </div>
     <ul>
       <li v-for="(item, i) in arr">
         <!-- v-bind 缩写为: 里面东西就变为js，v-on缩写为@ -->
@@ -29,9 +48,11 @@
       el: '#app',
       data() {
         return {
+          img:'',
+          nickname: '',
           h: '150px',
           w: '100px',
-          nickname: 'xlk',
+          nickname: '',
           arr: [
             {id: 0, name: 'aaa', url: 'https://imgkepu.gmw.cn/attachement/jpg/site2/20201204/f44d3075893d2133d7370b.jpg'},
             {id: 1, name: 'bbb', url: 'https://imgkepu.gmw.cn/attachement/jpg/site2/20201204/f44d3075893d2133d7370b.jpg'},
@@ -44,6 +65,13 @@
         del (id) {
           console.log(id);
           this.arr.splice(id,1)
+        },
+        add () {
+          this.arr.unshift({
+            id: this.arr.length,
+            name: this.nickname,
+            url: this.img
+          })
         }
       },
     })
