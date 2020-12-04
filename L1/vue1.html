@@ -12,7 +12,13 @@
   <div id="app">
     {{nickname}}
     <ul>
-      <li v-for="(item, i) in arr">{{item}}</li>
+      <li v-for="(item, i) in arr">
+        <!-- v-bind 缩写为: 里面东西就变为js，v-on缩写为@ -->
+        <a :href="`detail?name=${item.name}`">{{item.name}}</a>
+        <img :src="item.url" :style="{height:h, width: w}"  alt="">
+        <button @click="del(i)">删除</button>
+        {{item.id}}
+      </li>
     </ul>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -23,8 +29,21 @@
       el: '#app',
       data() {
         return {
+          h: '150px',
+          w: '100px',
           nickname: 'xlk',
-          arr: ['a','b','c']
+          arr: [
+            {id: 0, name: 'aaa', url: 'https://imgkepu.gmw.cn/attachement/jpg/site2/20201204/f44d3075893d2133d7370b.jpg'},
+            {id: 1, name: 'bbb', url: 'https://imgkepu.gmw.cn/attachement/jpg/site2/20201204/f44d3075893d2133d7370b.jpg'},
+            {id: 2, name: 'ccc', url: 'https://imgkepu.gmw.cn/attachement/jpg/site2/20201204/f44d3075893d2133d7370b.jpg'},
+          ]
+        
+        }
+      },
+      methods: {
+        del (id) {
+          console.log(id);
+          this.arr.splice(id,1)
         }
       },
     })
