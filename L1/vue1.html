@@ -20,10 +20,10 @@
         </h1>
         <div>
           <!-- $event vue内置对象，代表当前的事件对象 -->
-          图片<input type="text" :value="img" @input="img = $event.target.value">
+          图片<input type="text" v-model="img">
         </div>
         <div>
-          名字 <input type="text" :value="nickname"  @input="nickname = $event.target.value">
+          名字 <input type="text" v-model="nickname">
         </div>
         <div>
           <button @click = "add">添加</button>
@@ -73,6 +73,12 @@
             url: this.img
           })
         }
+      },
+      created() {
+        console.log('i comming');
+        this.img = ''
+        this.nickname = ''
+        
       },
     })
   </script>
