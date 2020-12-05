@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>轮播图</title>
+</head>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  .demo li{
+    height: 300px;
+    width: 500px;
+  }
+</style>
+<body>
+  <div id="app">
+    <ul class="demo">
+      <li v-show="index === activeIndex" :style="{background: item}" v-for="(item, index) in imgList"></li>
+    </ul>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    let app = new Vue({
+      el: '#app',
+      data() {
+        return {
+          activeIndex: 0,
+          imgList: ['red','blue','green','black']
+        }
+      },
+      mounted() {
+        setInterval(() => {
+          if (++ this.activeIndex === this.imgList.length) this.activeIndex = 0
+        }, 2000)
+      }
+    })
+  </script>
+
+</body>
+
+</html>
