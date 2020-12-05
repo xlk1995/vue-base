@@ -9,6 +9,53 @@
 </head>
 
 <body>
+  <ul>
+    <li>
+      初始化工作
+    </li>
+    <li>
+      执行beforeCreat函数（如果有）
+    </li>
+    <li>
+      初始化data数据
+    </li>
+    <li>
+      执行created函数（如果有），此时data已有数据
+    </li>
+    <li>
+      判断是否传了el选项
+    </li>
+    <li>
+      没有传就等待vm调用$mount()方法
+    </li>
+    <li>
+      传了el 判断有没有传template函数
+    </li>
+    <li>
+      没有传template就把el当成template通过render函数编译成虚拟dom树
+    </li>
+    <li>
+      执行beforeMount 如果有
+    </li>
+    <li>
+      将虚拟dom替换掉el中的内容
+    </li>
+    <li>
+      执行mounted函数
+    </li>
+    <li>
+      数据更新时，走beforeUpdate VDom 更新完之后 走updated
+    </li>
+    <li>
+      组件切换或路由跳转。销毁vue实例走beforeDestroy
+    </li>
+    <li>
+      解除事件绑定，销毁子组件
+    </li>
+    <li>
+      执行destroyed函数
+    </li>
+  </ul>
   <div id="app">
     <div>
       <fieldset>
