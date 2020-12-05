@@ -46,6 +46,7 @@
     Vue.config.productionTip = false
     let app = new Vue({
       el: '#app',
+      template: "<h1>22222</h1>",
       data() {
         return {
           img:'',
@@ -74,13 +75,56 @@
           })
         }
       },
+      beforeCreate() {
+        console.log('-'.repeat(30));
+        console.log(this.$data)
+        console.log(this.$el);
+        console.log('beforeCreate');
+      },
       created() {
-        console.log('i comming');
-        this.img = ''
-        this.nickname = ''
+        console.log('-'.repeat(30));
+        console.log(this.$data)
+        console.log(this.$el);
+        console.log('created');
+        
+      },
+      beforeMount() {
+        console.log('-'.repeat(30));
+        console.log(this.$data)
+        console.log(this.$el);
+        console.log('beforeMount');
+        
+      },
+      mounted() {
+        console.log('-'.repeat(30));
+        console.log(this.$data)
+        console.log(this.$el);
+        console.log('mounted');
+        
+      },
+      beforeUpdate() {
+        console.log('beforeUpdate');
+        
+      },
+      updated() {
+        console.log('updated');
+        
+      },
+      beforeDestroy() {
+        console.log('beforeDestroy');
+        
+      },
+      destroyed() {
+        console.log('destroyed');
         
       },
     })
+    setTimeout(() => {
+      app.$mount('#app')
+    }, 2000);
+    setTimeout(() => {
+      app.$destroy()
+    }, 4000);
   </script>
 </body>
 
