@@ -210,7 +210,7 @@
                 <li class="content-left-bottom-content-item flex" 
                   v-for = "item in list"
                 >
-                  <img :src="item.verticalPic" alt="">
+                  <a :href="`http://127.0.0.1:8080/L1/detail.html?id=${item.id}`"><img :src="item.verticalPic" alt=""></a>
                   <div class="content-left-bottom-content-item-right flex flex-j-s">
                     <div class="item-right-title">
                         【{{item.cityname}}】 {{item.name}}

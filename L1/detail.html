@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>大麦网</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+    .detail-main {
+      padding: 50px 20px;
+    }
+
+    .detail-main img {
+      width: 270px;
+      height: auto;
+    }
+
+    .detail-main-right {
+      padding-left: 20px;
+    }
+
+    .detail-main-right div {
+      margin-bottom: 10px;
+    }
+
+    .price-list {
+      flex-wrap: wrap;
+      flex: 1;
+    }
+
+    .price-list li {
+      padding: 10px;
+      margin: 2px 5px;
+      user-select: none;
+      cursor: pointer;
+    }
+    .price-list li.active{
+      background: orangered;
+      color: #ffffff;
+      
+    }
+    [v-cloak]{
+      display: none;
+    }
+    .counter{
+      border: 1px solid #cccccc;
+      padding: 10px;
+    }
+    .counter button {
+      border: none;
+      outline: none;
+    }
+    .counter input {
+      border: none;
+      outline: none;
+      height: 30px;
+      width: 30px;
+      padding-left: 10px;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    <div class="detail-main w1200 block-c flex">
+      <img :src="info.verticalPic"
+        alt="">
+      <div class="detail-main-right">
+        <div>
+          【苏州】2020苏州M_DSK跨年限定日
+        </div>
+        <div>
+          时间：2020.12.31-2021.01.01
+        </div>
+        <div>
+          场馆：苏州市 | 苏州相城活力岛
+        </div>
+        <div class="flex">
+          <div style="padding-top: 12px; width: 60px;">票档</div>
+          <ul class="flex price-list">
+            <li :class="{active: activeIndex === i}" v-for="(item,i) in priceList" @click="activeIndex = i">{{item}}</li>
+          </ul>
+        </div>
+        <div class="flex">
+          <div style="width: 60px;">数量</div>
+          <div class="counter flex">
+            <button @click="count--" :disabled="count === 0">-</button>
+            <input type="text" v-model="count">
+            <button @click="count++" :disabled="count === 3">+</button>
+          </div>
+          <div v-show="count === 3">限购{{count}}张</div>
+        </div>
+        <div>
+          总共 ￥{{totalPrice | fix2}} / $ {{totalPrice1 | fix2}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+  <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.12/vue.min.js"></script>
+  <script src="axios.js"></script>
+  <script src="vue.js"></script>
+  <script src="./utils/filters.js"></script>
+  <script src="./utils/xlk.js"></script>
+  
+  <script>
+    let app = new Vue({
+      el: '#app',
+      data() {
+        return {
+          activeIndex: 0,
+          priceList: [460, 560, 660, 760],
+          count: 1,
+          info: {},
+          id: '',
+        }
+      },
+      computed:{
+        totalPrice () {
+          return this.count * this.priceList[this.activeIndex]
+        },
+        totalPrice1 () {
+          return this.totalPrice / 6.9
+        }
+
+      },
+      watch:{
+        count () {
+          if (isNaN(this.count)) this.count = 1
+          if (!Number.isInteger(this.count)) this.count = Math.floor(this.count)
+          if (this.count < 1) this.count = 1
+          if (this.count > 3) this.count = 3
+        }
+      },
+      methods: {
+        async getInfo () {
+          let res = await axios.get('dm.json')
+          let arr = res.data.pageData.resultData
+          console.log(arr);
+          console.log('-'.repeat(30));
+          
+          console.log(this.id);
+          
+          this.info = arr.find(r => r.id+'' === this.id+'')
+          console.log(this.info);
+          
+        }
+      },
+      created() {
+        this.id = getSearchParams().id
+        console.log(this.id);
+        this.getInfo()        
+      },
+    })
+  </script>
+</body>
+
+</html>
