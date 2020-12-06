@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>购物车</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+    .menu {
+
+    }
+    .menu li{
+      flex: 1;
+      padding: 20px;
+      background: #cccccc;
+      text-align: center;
+    }
+    .main{
+      margin-top: 10px;
+    }
+    .main button, .main input {
+      border: none;
+      outline: none;
+    }
+    .main input{
+      text-align: center;
+      width: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <div class="w1200 block-c">
+      <ul class="flex menu">
+        <li><input type="checkbox" v-model="checkedAll" @change="changeAll">{{checkedAll}}</li>
+        <li>商品</li>
+        <li>单价</li>
+        <li>数量</li>
+        <li>金额</li>
+        <li>操作</li>
+      </ul>
+      <div class="main">
+          <ul class="flex menu" v-for="item in list">
+              <li><input type="checkbox" v-model="item.isChecked" @change="changeItem(item)">{{item.isChecked}}</li>
+              <li>{{item.name}}</li>
+              <li>{{item.price | fixed2 | fmtRMB}}</li>
+              <li class="flex flex-j-c">
+                <button @click="item.amount--" :disabled="item.amount === 1">-</button>
+                <input type="text" :value="item.amount" @blur="changeAmount(item,$event)"  @keydown.enter="changeAmount(item,$event)">
+                <button @click="item.amount++" :disabled="item.amount === maxLimit">+</button>
+              </li>
+              <li>{{calc(item) | fixed2 | fmtRMB}}</li>
+              <li><a class="block" @click="del(item)">删除</a></li>
+            </ul>
+      </div>
+      <div>
+        <h1>总计：{{totalPrice | fixed2 | fmtRMB}}</h1>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="vue.js"></script>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        checkedAll: false,
+        maxLimit: 10,
+        list: [
+          {
+            id: 1,
+            name: 'Jerry （新）杰瑞',
+            price: 198,
+            amount: 1,
+            isChecked: false
+          },
+          {
+            id: 2,
+            name: 'Tofu cheese Cake [豆酪]',
+            price: 298,
+            amount: 1,
+            isChecked: false
+          },
+        ]
+      }
+    },
+    computed:{
+      totalPrice () {
+      let selectList = this.list.filter(r => r.isChecked)
+      if (!selectList.length) return 0
+      return selectList.map(r => r.price * r.amount).reduce((a, item)=> a+item)
+      }
+    },
+    filters:{
+      fixed2 (val) {
+        return val.toFixed(2)
+      },
+      fmtRMB (val) {
+        return '￥' + val
+      }
+    },
+    methods: {
+      calc (item) {
+        return item.price * item.amount
+      },
+      changeAmount (item, e){
+        let val = e.target.value
+        if (isNaN(val)) val = 1
+        if (!Number.isInteger(val)) val = Math.floor(val)
+        val = parseInt(val)
+        if (val < 1) val = 1
+        if (val > 10) val = 10
+        item.amount = val
+        e.target.value = val
+      },
+      del(item){
+        this.list = this.list.filter(r => r.id !== item.id)
+        
+      },
+      changeAll () {
+        this.list.forEach(item =>{          
+          item.isChecked = this.checkedAll
+        })
+        
+      },
+      changeItem() {
+        this.checkedAll = this.list.every(item => item.isChecked)
+      }
+    },
+  })
+</script>
+</html>
