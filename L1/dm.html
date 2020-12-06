@@ -55,7 +55,7 @@
     <div class="main w1200 block-c">
       <div class="main-total">
         共有
-        <span style="color: #FF1268;">1234</span>个商品
+        <span style="color: #FF1268;">{{listCount}}</span>个商品
       </div>
       <div class="main-content flex">
         <div class="content-left">
@@ -213,13 +213,13 @@
                   <img :src="item.verticalPic" alt="">
                   <div class="content-left-bottom-content-item-right flex flex-j-s">
                     <div class="item-right-title">
-                        【{{item.venuecity}}】 {{item.name}}
+                        【{{item.cityname}}】 {{item.name}}
                     </div>
                     <div>
                         {{item.actors}}
                     </div>
                     <div>
-                        {{item.venuecity}} | {{item.venue}}
+                        {{item.cityname}} | {{item.venue}}
                     </div>
                     <div>
                         {{item.showtime}}
@@ -296,15 +296,43 @@
           list: []
         }
       },
+      computed:{
+        listCount (){
+          return this.list.length
+        }
+      },
       created() {
         this.getList()
       },
+      watch: {
+        activeCity () {
+          this.getList()
+        },
+        activeCategory () {
+          this.getList()
+        }
+      },
+
       methods: {
-        getList () {
-          axios.get('dm.json').then((res)=>{
-            this.list = res.data.pageData.resultData
-            
-          })
+        async getList () {
+          let cityId = this.cityList[this.activeCity]
+          let categoryId = this.categoryList[this.activeCategory]
+          if (cityId) {
+            cityId = this.cityList[this.activeCity].citycode
+          }
+          if (categoryId) {
+            categoryId = this.categoryList[this.activeCategory].citycode
+          }
+          let res = await axios.get('dm.json')
+          let arr = res.data.pageData.resultData
+          console.log(cityId);
+          console.log(categoryId);
+          
+          if (cityId !== undefined) arr = arr.filter(item => item.cityid === cityId)
+          if (categoryId !==  undefined) arr = arr.filter(item => item.categoryid === categoryId)
+          this.list = arr
+          console.log(arr);
+          
         },
         changeNav() {
           this.navActive = this.navActive === 1 ? 0 : 0
