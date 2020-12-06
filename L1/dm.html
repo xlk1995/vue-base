@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>大麦网</title>
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="dm.css">
+  <link rel="stylesheet" href="http://at.alicdn.com/t/font_2250381_n7iakr0jfmh.css">
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    <div class="nav">
+      <div class="header w1200  block-c flex flex-j-s">
+        <div class="left flex">
+          <a class="logo flex flex-a-c block" href="http://www.baidu.com">
+            <img src="./dmlogo.png" alt="" srcset="">
+          </a>
+          <div class="left-nav  flex flex-a-c">
+            <a :class="`block ${navActive === 0 ? 'active' : ''}`" @click="changeNav">首页</a>
+            <a :class="`block ${navActive === 1 ? 'active' : ''}`" @click="changeNav1">分类</a>
+          </div>
+        </div>
+        <div class="right flex">
+          <div class="search-wrapper flex flex-a-c relative">
+            <div :class="`search flex ${inputActive? 'active': ''}`">
+              <i class="iconfont icon-sousuo block flex flex-a-c search-icon"></i>
+              <input type="text" placeholder="搜索明星、演出、体育赛事" class="block" @blur="blurSearchInput" @focus="focusSearchInput">
+            </div>
+            <div class="search-btn absolute">搜索</div>
+          </div>
+          <div class="right-nav flex">
+            <div class="login flex flex-a-c">
+              <i class="iconfont icon-denglu"></i>
+              <span>登录</span>
+            </div>
+            <div class="download flex flex-a-c">
+              <i class="iconfont icon-download"></i>
+              <span>下载</span>
+            </div>
+            <div class="translate flex flex-a-c">
+              <i class="iconfont icon-world">
+              </i>
+              <span>English</span>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="main w1200 block-c">
+      <div class="main-total">
+        共有
+        <span style="color: #FF1268;">1234</span>个商品
+      </div>
+      <div class="main-content flex">
+        <div class="content-left">
+          <div class="content-left-top">
+            <div class="city flex">
+              <div class="city-title">
+                城市：
+              </div>
+              <div class="city-content">
+                <div class="city-content-top">
+                  <span>当前选中城市</span>
+                  <span class="currentCity">{{currentCity}}</span>
+                </div>
+                <div class="city-content-bottom flex">
+                  <div class="city-content-bottom-left">
+                    <div style="text-align: center;line-height: 26px;margin-right: 0; width: 44px; padding: 0;"  :class="`city-content-bottom-left-list-item ${activeCity === -1?'active':''}`" @click="activeCity=-1">全部</div>
+                  </div>
+                  <div class="city-content-bottom-right ">
+                    <ul class="city-content-bottom-left-list flex">
+                      <li :class="`flex flex-a-c flex-j-c  city-content-bottom-left-list-item ${item.citycode === activeCity ? 'active' : ''}`"
+                        v-for="item in cityList" :key="item.citycode" @click="activeCity=item.citycode"
+                      >{{item.cityname}}</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="city flex">
+              <div class="city-title">
+                分类：
+              </div>
+              <div class="city-content">
+                <div class="city-content-bottom flex">
+                  <div class="city-content-bottom-left">
+                    <div style="text-align: center;line-height: 26px;margin-right: 0;width: 44px; padding: 0;"  :class="`city-content-bottom-left-list-item ${activeCategory === -1?'active':''}`" @click="activeCategory=-1">全部</div>
+                  </div>
+                  <div class="city-content-bottom-right ">
+                    <ul class="city-content-bottom-left-list flex">
+                      <li :class="`flex flex-a-c flex-j-c  city-content-bottom-left-list-item ${item.citycode === activeCategory ? 'active' : ''}`"
+                        v-for="item in categoryList" :key="item.citycode" @click="activeCategory=item.citycode"
+                      >{{item.cityname}}</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="city flex">
+              <div class="city-title">
+                时间：
+              </div>
+              <div class="city-content">
+                <div class="city-content-bottom flex">
+                  <div class="city-content-bottom-left">
+                    <div style="text-align: center;line-height: 26px;margin-right: 0; width: 44px;padding: 0px;"  :class="`city-content-bottom-left-list-item ${activeTime === -1?'active':''}`" @click="activeTime=-1">全部</div>
+                  </div>
+                  <div class="city-content-bottom-right flex">
+                    <ul class="city-content-bottom-left-list flex flex-a-c">
+                      <li :class="`flex flex-a-c flex-j-c  city-content-bottom-left-list-item ${item.citycode === activeTime ? 'active' : ''}`"
+                        v-for="item in timeList" :key="item.citycode" @click="activeTime=item.citycode"
+                      >{{item.cityname}}</li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <!-- <div class="line"></div> -->
+            <!-- <div class="category">1</div> -->
+            <!-- <div class="line"></div>             -->
+            <!-- <div class="time">1</div> -->
+          </div>
+          <div class="content-left-bottom ">
+            <div class="content-left-bottom-header flex">
+              <div class="content-left-bottom-header-left flex">
+                <div :class="`nav-item ${activeItem === index ? 'active' : ''}`" v-for="(item,index) in navItemList" @click="activeItem=index">{{item}}</div>
+              </div>
+              <div class="content-left-bottom-header-right flex flex-a-c flex-j-c">
+                1/100
+              </div>
+            </div>
+            <div class="content-left-bottom-content">
+              <ul class="content-left-bottom-content-list" v-show="activeItem === 0">
+                <li class="content-left-bottom-content-item flex">
+                  <img src="./item.webp" alt="">
+                  <div class="content-left-bottom-content-item-right flex flex-j-s">
+                    <div class="item-right-title">
+                        【苏州】 2020苏州M_DSK跨年限定日0
+                    </div>
+                    <div>
+                        艺人：满舒克、黄旭、王以太、万妮达
+                    </div>
+                    <div>
+                        苏州 | 苏州相城活力岛
+                    </div>
+                    <div>
+                        2020.12.31-2021.01.01
+                    </div>
+                    <div>
+                        <span style="font-size: 16px; color: #FF1268;">260-720 元</span>  售票中
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="content-left-bottom-content-list" v-show="activeItem === 1">
+                <li class="content-left-bottom-content-item flex">
+                  <img src="./item.webp" alt="">
+                  <div class="content-left-bottom-content-item-right flex flex-j-s">
+                    <div class="item-right-title">
+                        【苏州】 2020苏州M_DSK跨年限定日1
+                    </div>
+                    <div>
+                        艺人：满舒克、黄旭、王以太、万妮达
+                    </div>
+                    <div>
+                        苏州 | 苏州相城活力岛
+                    </div>
+                    <div>
+                        2020.12.31-2021.01.01
+                    </div>
+                    <div>
+                        <span style="font-size: 16px; color: #FF1268;">260-720 元</span>  售票中
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="content-left-bottom-content-list" v-show="activeItem === 2">
+                <li class="content-left-bottom-content-item flex">
+                  <img src="./item.webp" alt="">
+                  <div class="content-left-bottom-content-item-right flex flex-j-s">
+                    <div class="item-right-title">
+                        【苏州】 2020苏州M_DSK跨年限定日2
+                    </div>
+                    <div>
+                        艺人：满舒克、黄旭、王以太、万妮达
+                    </div>
+                    <div>
+                        苏州 | 苏州相城活力岛
+                    </div>
+                    <div>
+                        2020.12.31-2021.01.01
+                    </div>
+                    <div>
+                        <span style="font-size: 16px; color: #FF1268;">260-720 元</span>  售票中
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="content-left-bottom-content-list" v-show="activeItem === 3">
+                <li class="content-left-bottom-content-item flex" 
+                  v-for = "item in list"
+                >
+                  <img :src="item.verticalPic" alt="">
+                  <div class="content-left-bottom-content-item-right flex flex-j-s">
+                    <div class="item-right-title">
+                        【{{item.venuecity}}】 {{item.name}}
+                    </div>
+                    <div>
+                        {{item.actors}}
+                    </div>
+                    <div>
+                        {{item.venuecity}} | {{item.venue}}
+                    </div>
+                    <div>
+                        {{item.showtime}}
+                    </div>
+                    <div>
+                        <span style="font-size: 16px; color: #FF1268;">{{item.price_str}} 元</span>  {{item.showstatus}}
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+        <div class="content-right bgblue">1</div>
+      </div>
+    </div>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    Vue.config.devtools = false
+    Vue.config.productionTip = false
+    let app = new Vue({
+      el: '#app',
+      data() {
+        return {
+          navActive: 0,
+          inputActive: false,
+          currentCity: '全国',
+          cityList:[
+            {citycode:0, cityname:'上海'},
+            {citycode:1, cityname:'北京'},
+            {citycode:2, cityname:'成都'},
+            {citycode:3, cityname:'天津'},
+            {citycode:4, cityname:'杭州'},
+            {citycode:5, cityname:'广州'},
+            {citycode:6, cityname:'苏州'},
+            {citycode:7, cityname:'武汉'},
+            {citycode:8, cityname:'南京'},
+            {citycode:9, cityname:'西安'},
+            {citycode:10, cityname:'长沙'},
+            {citycode:11, cityname:'宁波'},
+            {citycode:12, cityname:'青岛'},
+            {citycode:13, cityname:'沈阳'},
+            {citycode:14, cityname:'大连'},
+            {citycode:15, cityname:'郑州'},
+            {citycode:16, cityname:'厦门'},
+            {citycode:17, cityname:'济南'},
+          ],
+          categoryList:[
+            {citycode:0, cityname:'音乐会'},
+            {citycode:1, cityname:'话剧'},
+            {citycode:2, cityname:'歌剧'},
+            {citycode:3, cityname:'演唱会'},
+            {citycode:4, cityname:'曲苑杂坛'},
+            {citycode:5, cityname:'展览休闲'},
+            {citycode:6, cityname:'舞蹈芭蕾'},
+            {citycode:7, cityname:'其他体育'},
+            {citycode:8, cityname:'儿童亲子'},
+          ],
+          timeList:[
+            {citycode:0, cityname:'今天'},
+            {citycode:1, cityname:'明天'},
+            {citycode:2, cityname:'本周末'},
+            {citycode:3, cityname:'一个月内'},
+          ],
+          activeCity: -1,
+          activeCategory : -1,
+          activeTime : -1,
+          navItemList: ['相关度排序', '推荐排序', '最近开场', '最新上架'],
+          activeItem: 0,
+          list: []
+        }
+      },
+      created() {
+        this.getList()
+      },
+      methods: {
+        getList () {
+          axios.get('dm.json').then((res)=>{
+            this.list = res.data.pageData.resultData
+            
+          })
+        },
+        changeNav() {
+          this.navActive = this.navActive === 1 ? 0 : 0
+        },
+        changeNav1() {
+          this.navActive = this.navActive === 0 ? 1 : 0
+        },
+        blurSearchInput() {
+          this.inputActive = false
+        },
+        focusSearchInput() {
+          this.inputActive = true
+
+        }
+      },
+
+    })
+  </script>
+</body>
+
+</html>
