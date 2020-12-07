@@ -7,12 +7,23 @@
   <title>轮播</title>
   <link rel="stylesheet" href="../common.css">
   <style>
-    
+    .nav-list li{
+      flex: 1;
+      background: #cccccc;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
   <div id="app" v-cloak>
-    {{name}}
+    <div class="w1200 block-c">
+      <ul class="flex nav-list">
+        <li v-for="(item, index) in navList" @click="activeIndex = index">{{item}}</li>
+      </ul>
+      <div v-show="activeIndex === 0">1111</div>
+      <div  v-show="activeIndex === 1">22222</div>
+      <div  v-show="activeIndex === 2">33333</div>
+    </div>
   </div>
 </body>
 <script src="vue.js"></script>
@@ -21,7 +32,8 @@
     el: '#app',
     data() {
       return {
-        name: 'xx'
+        activeIndex: 0,
+        navList: ['音乐', '电影', '聊天']
       }
     },
   })
