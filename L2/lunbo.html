@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>轮播</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+    .container{
+      width: 500px;
+      margin: 100px auto;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+    }
+    .img-list li{
+      width: 500px;
+      height: 300px;
+      text-align: center;
+      line-height: 300px;
+      font-size: 40px;
+      color: #ffffff;
+    }
+    .indexs {
+      position: absolute;  
+      bottom: 10px;    
+    }
+    .indexs li{
+      width: 20px;
+      height: 20px;
+      background: #ccc;
+      border-radius: 50%;
+      margin: 0 5px;
+    }
+    .indexs li:hover, .indexs li.active{
+      background: #444444;
+    }
+    .arrow{
+      height: 46px;
+      min-width: 40px;
+      background: #cccccc;
+      position: absolute;
+      right: 100%;
+    }
+    
+    .arrow.right{
+      left: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <div class="container flex">
+      <div class="arrow left" @click="prev"></div>
+      <div class="arrow right" @click="next"></div>
+      <ul class="img-list flex">
+        <li v-for="(item, index) in imglist" :style="{background:item}" v-show="activeIndex ===index">{{index}}</li>
+      </ul>
+      <ul class="indexs flex">
+        <li v-for="(item, index) in imglist" :class="{active: index === activeIndex}" @click="change(index)"></li>
+      </ul>
+    </div>
+  </div>
+</body>
+<script src="vue.js"></script>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        imglist: ['red', 'green', 'blue', 'orange'],
+        activeIndex: 0,
+        timer: -1
+      }
+    },
+    methods: {
+      run () {
+        this.timer = setInterval(()=>{
+          if (++this.activeIndex > this.imglist.length-1) this.activeIndex = 0 
+        },2000)
+      },
+      change (index) {
+        this.activeIndex = index
+        clearInterval(this.timer)
+        this.run()
+      },
+      prev (){
+        if (--this.activeIndex < 0) this.activeIndex = this.imglist.length-1
+        clearInterval(this.timer)
+        this.run()
+      },
+      next () {
+        if (++this.activeIndex > this.imglist.length-1) this.activeIndex = 0 
+        clearInterval(this.timer)
+        this.run()
+      }
+    },
+    mounted() {
+      this.run()
+    },
+  })
+</script>
+</html>

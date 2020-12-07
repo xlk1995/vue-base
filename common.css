@@ -80,3 +80,6 @@ a{
 .text-c{
   text-align: center;
 }
+[v-cloak]{
+  display: none;
+}
