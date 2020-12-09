@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>mixin</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    {{baseUrl}}
+  </div>
+</body>
+<script src="vue.js"></script>
+<script src="axios.js"></script>
+<script>
+  Vue.mixin({
+    data() {
+      return {
+        baseUrl:'http://127.0.0.1:5500/L2/'
+      }
+    },
+    methods: {
+      $get (url) {
+        return fetch(this.baseUrl + url).then (res => {
+          return res.json()
+        })
+      },
+      $get1 (url) {
+        return axios.get(this.baseUrl + url)
+      }
+    },
+  })
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        
+      }
+    },
+    async created() {
+      let res = await this.$get('dm.json')
+      console.log(res);
+      let res1 = await this.$get1('dm.json')
+      console.log('-'.repeat(30));
+      console.log(res1);
+      
+      
+    },
+  })
+</script>
+</html>

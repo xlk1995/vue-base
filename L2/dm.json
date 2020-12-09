@@ -1,0 +1,3232 @@
+{
+  "ctyIdx": 0,
+  "currPage": 1,
+  "et": "",
+  "ids": "632230902089,632675516076,630948840878,631656028017,632269764265,632183376230,630868874520,631702390727,632845970295,631686042983,633115183785,632232513973,631361154857,632874941858,631770822218,632532745307,632732801847,631976395062,633154266676,632906555205,631593577490,631574188292,631356129951,632301807782,633106539697,630661380969,631076256295,632969059040,633472910781,632838097304",
+  "keyword": "",
+  "order": "3",
+  "pageData": {
+    "currentPage": 1,
+    "factMap": {
+      "subcategoryname": [
+        {
+          "count": 460,
+          "name": "livehouse"
+        },
+        {
+          "count": 1209,
+          "name": "其他"
+        },
+        {
+          "count": 2,
+          "name": "室内乐及古乐"
+        },
+        {
+          "count": 301,
+          "name": "展会"
+        },
+        {
+          "count": 262,
+          "name": "戏曲"
+        },
+        {
+          "count": 1,
+          "name": "摇滚"
+        },
+        {
+          "count": 26,
+          "name": "流行"
+        },
+        {
+          "count": 163,
+          "name": "特色体验"
+        },
+        {
+          "count": 1,
+          "name": "独奏"
+        },
+        {
+          "count": 4,
+          "name": "球类运动"
+        },
+        {
+          "count": 3,
+          "name": "田径"
+        },
+        {
+          "count": 6,
+          "name": "相声"
+        },
+        {
+          "count": 1,
+          "name": "篮球"
+        },
+        {
+          "count": 83,
+          "name": "舞蹈"
+        },
+        {
+          "count": 618,
+          "name": "话剧"
+        },
+        {
+          "count": 156,
+          "name": "音乐剧"
+        },
+        {
+          "count": 13,
+          "name": "音乐节"
+        },
+        {
+          "count": 1,
+          "name": "魔术"
+        }
+      ],
+      "performstarttimelow": [
+        {
+          "count": 1,
+          "name": "17925"
+        },
+        {
+          "count": 7,
+          "name": "17949"
+        },
+        {
+          "count": 1,
+          "name": "18004"
+        },
+        {
+          "count": 1,
+          "name": "18011"
+        },
+        {
+          "count": 1,
+          "name": "18044"
+        },
+        {
+          "count": 1,
+          "name": "18109"
+        },
+        {
+          "count": 1,
+          "name": "18137"
+        },
+        {
+          "count": 1,
+          "name": "18183"
+        },
+        {
+          "count": 1,
+          "name": "18206"
+        },
+        {
+          "count": 4,
+          "name": "18207"
+        },
+        {
+          "count": 1,
+          "name": "18226"
+        },
+        {
+          "count": 1,
+          "name": "18244"
+        },
+        {
+          "count": 1,
+          "name": "18248"
+        },
+        {
+          "count": 1,
+          "name": "18250"
+        },
+        {
+          "count": 1,
+          "name": "18254"
+        },
+        {
+          "count": 1,
+          "name": "18255"
+        },
+        {
+          "count": 2,
+          "name": "18257"
+        },
+        {
+          "count": 4,
+          "name": "18261"
+        },
+        {
+          "count": 1,
+          "name": "18263"
+        },
+        {
+          "count": 1,
+          "name": "18267"
+        },
+        {
+          "count": 2,
+          "name": "18268"
+        },
+        {
+          "count": 2,
+          "name": "18270"
+        },
+        {
+          "count": 2,
+          "name": "18271"
+        },
+        {
+          "count": 1,
+          "name": "18277"
+        },
+        {
+          "count": 1,
+          "name": "18279"
+        },
+        {
+          "count": 1,
+          "name": "18287"
+        },
+        {
+          "count": 1,
+          "name": "18288"
+        },
+        {
+          "count": 2,
+          "name": "18301"
+        },
+        {
+          "count": 7,
+          "name": "18305"
+        },
+        {
+          "count": 5,
+          "name": "18306"
+        },
+        {
+          "count": 1,
+          "name": "18309"
+        },
+        {
+          "count": 3,
+          "name": "18312"
+        },
+        {
+          "count": 6,
+          "name": "18313"
+        },
+        {
+          "count": 2,
+          "name": "18314"
+        },
+        {
+          "count": 1,
+          "name": "18317"
+        },
+        {
+          "count": 1,
+          "name": "18318"
+        },
+        {
+          "count": 3,
+          "name": "18319"
+        },
+        {
+          "count": 11,
+          "name": "18320"
+        },
+        {
+          "count": 4,
+          "name": "18321"
+        },
+        {
+          "count": 3,
+          "name": "18324"
+        },
+        {
+          "count": 1,
+          "name": "18325"
+        },
+        {
+          "count": 3,
+          "name": "18326"
+        },
+        {
+          "count": 10,
+          "name": "18327"
+        },
+        {
+          "count": 2,
+          "name": "18328"
+        },
+        {
+          "count": 1,
+          "name": "18330"
+        },
+        {
+          "count": 3,
+          "name": "18331"
+        },
+        {
+          "count": 2,
+          "name": "18332"
+        },
+        {
+          "count": 5,
+          "name": "18333"
+        },
+        {
+          "count": 11,
+          "name": "18334"
+        },
+        {
+          "count": 3,
+          "name": "18335"
+        },
+        {
+          "count": 1,
+          "name": "18338"
+        },
+        {
+          "count": 3,
+          "name": "18339"
+        },
+        {
+          "count": 7,
+          "name": "18340"
+        },
+        {
+          "count": 9,
+          "name": "18341"
+        },
+        {
+          "count": 2,
+          "name": "18342"
+        },
+        {
+          "count": 1,
+          "name": "18346"
+        },
+        {
+          "count": 3,
+          "name": "18347"
+        },
+        {
+          "count": 7,
+          "name": "18348"
+        },
+        {
+          "count": 4,
+          "name": "18349"
+        },
+        {
+          "count": 1,
+          "name": "18352"
+        },
+        {
+          "count": 1,
+          "name": "18353"
+        },
+        {
+          "count": 4,
+          "name": "18354"
+        },
+        {
+          "count": 2,
+          "name": "18355"
+        },
+        {
+          "count": 1,
+          "name": "18356"
+        },
+        {
+          "count": 1,
+          "name": "18358"
+        },
+        {
+          "count": 2,
+          "name": "18359"
+        },
+        {
+          "count": 3,
+          "name": "18361"
+        },
+        {
+          "count": 8,
+          "name": "18362"
+        },
+        {
+          "count": 2,
+          "name": "18363"
+        },
+        {
+          "count": 1,
+          "name": "18365"
+        },
+        {
+          "count": 1,
+          "name": "18366"
+        },
+        {
+          "count": 1,
+          "name": "18367"
+        },
+        {
+          "count": 2,
+          "name": "18368"
+        },
+        {
+          "count": 6,
+          "name": "18369"
+        },
+        {
+          "count": 3,
+          "name": "18370"
+        },
+        {
+          "count": 1,
+          "name": "18371"
+        },
+        {
+          "count": 1,
+          "name": "18373"
+        },
+        {
+          "count": 1,
+          "name": "18375"
+        },
+        {
+          "count": 2,
+          "name": "18376"
+        },
+        {
+          "count": 1,
+          "name": "18377"
+        },
+        {
+          "count": 1,
+          "name": "18379"
+        },
+        {
+          "count": 1,
+          "name": "18380"
+        },
+        {
+          "count": 5,
+          "name": "18382"
+        },
+        {
+          "count": 1,
+          "name": "18383"
+        },
+        {
+          "count": 1,
+          "name": "18384"
+        },
+        {
+          "count": 1,
+          "name": "18386"
+        },
+        {
+          "count": 1,
+          "name": "18388"
+        },
+        {
+          "count": 1,
+          "name": "18389"
+        },
+        {
+          "count": 1,
+          "name": "18390"
+        },
+        {
+          "count": 6,
+          "name": "18391"
+        },
+        {
+          "count": 1,
+          "name": "18393"
+        },
+        {
+          "count": 1,
+          "name": "18394"
+        },
+        {
+          "count": 2,
+          "name": "18396"
+        },
+        {
+          "count": 2,
+          "name": "18397"
+        },
+        {
+          "count": 1,
+          "name": "18398"
+        },
+        {
+          "count": 3,
+          "name": "18400"
+        },
+        {
+          "count": 1,
+          "name": "18402"
+        },
+        {
+          "count": 6,
+          "name": "18403"
+        },
+        {
+          "count": 5,
+          "name": "18404"
+        },
+        {
+          "count": 1,
+          "name": "18405"
+        },
+        {
+          "count": 4,
+          "name": "18407"
+        },
+        {
+          "count": 1,
+          "name": "18408"
+        },
+        {
+          "count": 2,
+          "name": "18410"
+        },
+        {
+          "count": 2,
+          "name": "18411"
+        },
+        {
+          "count": 2,
+          "name": "18413"
+        },
+        {
+          "count": 1,
+          "name": "18414"
+        },
+        {
+          "count": 2,
+          "name": "18415"
+        },
+        {
+          "count": 1,
+          "name": "18416"
+        },
+        {
+          "count": 3,
+          "name": "18417"
+        },
+        {
+          "count": 1,
+          "name": "18418"
+        },
+        {
+          "count": 1,
+          "name": "18419"
+        },
+        {
+          "count": 1,
+          "name": "18421"
+        },
+        {
+          "count": 1,
+          "name": "18423"
+        },
+        {
+          "count": 3,
+          "name": "18424"
+        },
+        {
+          "count": 1,
+          "name": "18425"
+        },
+        {
+          "count": 3,
+          "name": "18428"
+        },
+        {
+          "count": 1,
+          "name": "18429"
+        },
+        {
+          "count": 3,
+          "name": "18430"
+        },
+        {
+          "count": 2,
+          "name": "18432"
+        },
+        {
+          "count": 2,
+          "name": "18433"
+        },
+        {
+          "count": 1,
+          "name": "18435"
+        },
+        {
+          "count": 2,
+          "name": "18436"
+        },
+        {
+          "count": 1,
+          "name": "18437"
+        },
+        {
+          "count": 1,
+          "name": "18442"
+        },
+        {
+          "count": 4,
+          "name": "18443"
+        },
+        {
+          "count": 5,
+          "name": "18444"
+        },
+        {
+          "count": 1,
+          "name": "18445"
+        },
+        {
+          "count": 2,
+          "name": "18446"
+        },
+        {
+          "count": 1,
+          "name": "18447"
+        },
+        {
+          "count": 1,
+          "name": "18452"
+        },
+        {
+          "count": 1,
+          "name": "18453"
+        },
+        {
+          "count": 1,
+          "name": "18460"
+        },
+        {
+          "count": 1,
+          "name": "18461"
+        },
+        {
+          "count": 2,
+          "name": "18463"
+        },
+        {
+          "count": 2,
+          "name": "18464"
+        },
+        {
+          "count": 3,
+          "name": "18465"
+        },
+        {
+          "count": 2,
+          "name": "18470"
+        },
+        {
+          "count": 1,
+          "name": "18471"
+        },
+        {
+          "count": 1,
+          "name": "18473"
+        },
+        {
+          "count": 5,
+          "name": "18474"
+        },
+        {
+          "count": 2,
+          "name": "18478"
+        },
+        {
+          "count": 3,
+          "name": "18481"
+        },
+        {
+          "count": 1,
+          "name": "18485"
+        },
+        {
+          "count": 2,
+          "name": "18491"
+        },
+        {
+          "count": 1,
+          "name": "18492"
+        },
+        {
+          "count": 2,
+          "name": "18494"
+        },
+        {
+          "count": 3,
+          "name": "18495"
+        },
+        {
+          "count": 2,
+          "name": "18498"
+        },
+        {
+          "count": 2,
+          "name": "18503"
+        },
+        {
+          "count": 1,
+          "name": "18505"
+        },
+        {
+          "count": 1,
+          "name": "18509"
+        },
+        {
+          "count": 1,
+          "name": "18513"
+        },
+        {
+          "count": 1,
+          "name": "18514"
+        },
+        {
+          "count": 1,
+          "name": "18515"
+        },
+        {
+          "count": 1,
+          "name": "18516"
+        },
+        {
+          "count": 1,
+          "name": "18520"
+        },
+        {
+          "count": 1,
+          "name": "18521"
+        },
+        {
+          "count": 3,
+          "name": "18522"
+        },
+        {
+          "count": 3,
+          "name": "18523"
+        },
+        {
+          "count": 1,
+          "name": "18526"
+        },
+        {
+          "count": 1,
+          "name": "18528"
+        },
+        {
+          "count": 1,
+          "name": "18529"
+        },
+        {
+          "count": 8,
+          "name": "18530"
+        },
+        {
+          "count": 2,
+          "name": "18532"
+        },
+        {
+          "count": 1,
+          "name": "18533"
+        },
+        {
+          "count": 7,
+          "name": "18534"
+        },
+        {
+          "count": 17,
+          "name": "18535"
+        },
+        {
+          "count": 1,
+          "name": "18536"
+        },
+        {
+          "count": 1,
+          "name": "18539"
+        },
+        {
+          "count": 4,
+          "name": "18543"
+        },
+        {
+          "count": 2,
+          "name": "18544"
+        },
+        {
+          "count": 1,
+          "name": "18545"
+        },
+        {
+          "count": 1,
+          "name": "18547"
+        },
+        {
+          "count": 1,
+          "name": "18548"
+        },
+        {
+          "count": 1,
+          "name": "18549"
+        },
+        {
+          "count": 1,
+          "name": "18550"
+        },
+        {
+          "count": 2,
+          "name": "18551"
+        },
+        {
+          "count": 1,
+          "name": "18552"
+        },
+        {
+          "count": 5,
+          "name": "18554"
+        },
+        {
+          "count": 1,
+          "name": "18556"
+        },
+        {
+          "count": 2,
+          "name": "18558"
+        },
+        {
+          "count": 2,
+          "name": "18559"
+        },
+        {
+          "count": 1,
+          "name": "18560"
+        },
+        {
+          "count": 2,
+          "name": "18561"
+        },
+        {
+          "count": 1,
+          "name": "18562"
+        },
+        {
+          "count": 3,
+          "name": "18563"
+        },
+        {
+          "count": 2,
+          "name": "18564"
+        },
+        {
+          "count": 7,
+          "name": "18565"
+        },
+        {
+          "count": 16,
+          "name": "18566"
+        },
+        {
+          "count": 1,
+          "name": "18567"
+        },
+        {
+          "count": 4,
+          "name": "18568"
+        },
+        {
+          "count": 1,
+          "name": "18570"
+        },
+        {
+          "count": 1,
+          "name": "18571"
+        },
+        {
+          "count": 5,
+          "name": "18572"
+        },
+        {
+          "count": 2,
+          "name": "18573"
+        },
+        {
+          "count": 5,
+          "name": "18575"
+        },
+        {
+          "count": 1,
+          "name": "18576"
+        },
+        {
+          "count": 4,
+          "name": "18577"
+        },
+        {
+          "count": 5,
+          "name": "18578"
+        },
+        {
+          "count": 4,
+          "name": "18579"
+        },
+        {
+          "count": 4,
+          "name": "18580"
+        },
+        {
+          "count": 4,
+          "name": "18583"
+        },
+        {
+          "count": 2,
+          "name": "18585"
+        },
+        {
+          "count": 2,
+          "name": "18586"
+        },
+        {
+          "count": 2,
+          "name": "18587"
+        },
+        {
+          "count": 1,
+          "name": "18589"
+        },
+        {
+          "count": 2,
+          "name": "18590"
+        },
+        {
+          "count": 4,
+          "name": "18591"
+        },
+        {
+          "count": 3,
+          "name": "18592"
+        },
+        {
+          "count": 10,
+          "name": "18593"
+        },
+        {
+          "count": 2,
+          "name": "18594"
+        },
+        {
+          "count": 2,
+          "name": "18595"
+        },
+        {
+          "count": 42,
+          "name": "18596"
+        },
+        {
+          "count": 4,
+          "name": "18597"
+        },
+        {
+          "count": 4,
+          "name": "18598"
+        },
+        {
+          "count": 1,
+          "name": "18599"
+        },
+        {
+          "count": 6,
+          "name": "18600"
+        },
+        {
+          "count": 213,
+          "name": "18601"
+        },
+        {
+          "count": 91,
+          "name": "18602"
+        },
+        {
+          "count": 137,
+          "name": "18603"
+        },
+        {
+          "count": 180,
+          "name": "18604"
+        },
+        {
+          "count": 185,
+          "name": "18605"
+        },
+        {
+          "count": 304,
+          "name": "18606"
+        },
+        {
+          "count": 464,
+          "name": "18607"
+        },
+        {
+          "count": 354,
+          "name": "18608"
+        },
+        {
+          "count": 72,
+          "name": "18609"
+        },
+        {
+          "count": 120,
+          "name": "18610"
+        },
+        {
+          "count": 142,
+          "name": "18611"
+        },
+        {
+          "count": 144,
+          "name": "18612"
+        },
+        {
+          "count": 266,
+          "name": "18613"
+        },
+        {
+          "count": 420,
+          "name": "18614"
+        },
+        {
+          "count": 310,
+          "name": "18615"
+        },
+        {
+          "count": 68,
+          "name": "18616"
+        },
+        {
+          "count": 110,
+          "name": "18617"
+        },
+        {
+          "count": 141,
+          "name": "18618"
+        },
+        {
+          "count": 235,
+          "name": "18619"
+        },
+        {
+          "count": 317,
+          "name": "18620"
+        },
+        {
+          "count": 409,
+          "name": "18621"
+        },
+        {
+          "count": 303,
+          "name": "18622"
+        },
+        {
+          "count": 75,
+          "name": "18623"
+        },
+        {
+          "count": 118,
+          "name": "18624"
+        },
+        {
+          "count": 152,
+          "name": "18625"
+        },
+        {
+          "count": 259,
+          "name": "18626"
+        },
+        {
+          "count": 185,
+          "name": "18627"
+        },
+        {
+          "count": 145,
+          "name": "18628"
+        },
+        {
+          "count": 101,
+          "name": "18629"
+        },
+        {
+          "count": 8,
+          "name": "18630"
+        },
+        {
+          "count": 23,
+          "name": "18631"
+        },
+        {
+          "count": 25,
+          "name": "18632"
+        },
+        {
+          "count": 30,
+          "name": "18633"
+        },
+        {
+          "count": 56,
+          "name": "18634"
+        },
+        {
+          "count": 100,
+          "name": "18635"
+        },
+        {
+          "count": 72,
+          "name": "18636"
+        },
+        {
+          "count": 4,
+          "name": "18637"
+        },
+        {
+          "count": 15,
+          "name": "18638"
+        },
+        {
+          "count": 19,
+          "name": "18639"
+        },
+        {
+          "count": 20,
+          "name": "18640"
+        },
+        {
+          "count": 53,
+          "name": "18641"
+        },
+        {
+          "count": 93,
+          "name": "18642"
+        },
+        {
+          "count": 67,
+          "name": "18643"
+        },
+        {
+          "count": 4,
+          "name": "18644"
+        },
+        {
+          "count": 8,
+          "name": "18645"
+        },
+        {
+          "count": 20,
+          "name": "18646"
+        },
+        {
+          "count": 18,
+          "name": "18647"
+        },
+        {
+          "count": 36,
+          "name": "18648"
+        },
+        {
+          "count": 68,
+          "name": "18649"
+        },
+        {
+          "count": 53,
+          "name": "18650"
+        },
+        {
+          "count": 3,
+          "name": "18651"
+        },
+        {
+          "count": 11,
+          "name": "18652"
+        },
+        {
+          "count": 11,
+          "name": "18653"
+        },
+        {
+          "count": 13,
+          "name": "18654"
+        },
+        {
+          "count": 29,
+          "name": "18655"
+        },
+        {
+          "count": 56,
+          "name": "18656"
+        },
+        {
+          "count": 46,
+          "name": "18657"
+        },
+        {
+          "count": 18,
+          "name": "18658"
+        },
+        {
+          "count": 5,
+          "name": "18659"
+        },
+        {
+          "count": 6,
+          "name": "18660"
+        },
+        {
+          "count": 6,
+          "name": "18661"
+        },
+        {
+          "count": 8,
+          "name": "18662"
+        },
+        {
+          "count": 22,
+          "name": "18663"
+        },
+        {
+          "count": 11,
+          "name": "18664"
+        },
+        {
+          "count": 4,
+          "name": "18665"
+        },
+        {
+          "count": 2,
+          "name": "18666"
+        },
+        {
+          "count": 1,
+          "name": "18667"
+        },
+        {
+          "count": 1,
+          "name": "18668"
+        },
+        {
+          "count": 6,
+          "name": "18669"
+        },
+        {
+          "count": 12,
+          "name": "18670"
+        },
+        {
+          "count": 19,
+          "name": "18671"
+        },
+        {
+          "count": 18,
+          "name": "18672"
+        },
+        {
+          "count": 19,
+          "name": "18673"
+        },
+        {
+          "count": 18,
+          "name": "18674"
+        },
+        {
+          "count": 5,
+          "name": "18675"
+        },
+        {
+          "count": 2,
+          "name": "18676"
+        },
+        {
+          "count": 6,
+          "name": "18677"
+        },
+        {
+          "count": 5,
+          "name": "18678"
+        },
+        {
+          "count": 1,
+          "name": "18682"
+        },
+        {
+          "count": 6,
+          "name": "18683"
+        },
+        {
+          "count": 13,
+          "name": "18684"
+        },
+        {
+          "count": 6,
+          "name": "18685"
+        },
+        {
+          "count": 13,
+          "name": "18686"
+        },
+        {
+          "count": 2,
+          "name": "18687"
+        },
+        {
+          "count": 3,
+          "name": "18688"
+        },
+        {
+          "count": 1,
+          "name": "18689"
+        },
+        {
+          "count": 5,
+          "name": "18690"
+        },
+        {
+          "count": 10,
+          "name": "18691"
+        },
+        {
+          "count": 4,
+          "name": "18692"
+        },
+        {
+          "count": 1,
+          "name": "18693"
+        },
+        {
+          "count": 3,
+          "name": "18694"
+        },
+        {
+          "count": 3,
+          "name": "18695"
+        },
+        {
+          "count": 2,
+          "name": "18696"
+        },
+        {
+          "count": 3,
+          "name": "18697"
+        },
+        {
+          "count": 11,
+          "name": "18698"
+        },
+        {
+          "count": 5,
+          "name": "18699"
+        },
+        {
+          "count": 1,
+          "name": "18701"
+        },
+        {
+          "count": 1,
+          "name": "18702"
+        },
+        {
+          "count": 2,
+          "name": "18703"
+        },
+        {
+          "count": 7,
+          "name": "18704"
+        },
+        {
+          "count": 15,
+          "name": "18705"
+        },
+        {
+          "count": 8,
+          "name": "18706"
+        },
+        {
+          "count": 2,
+          "name": "18711"
+        },
+        {
+          "count": 7,
+          "name": "18712"
+        },
+        {
+          "count": 5,
+          "name": "18713"
+        },
+        {
+          "count": 1,
+          "name": "18715"
+        },
+        {
+          "count": 7,
+          "name": "18717"
+        },
+        {
+          "count": 2,
+          "name": "18718"
+        },
+        {
+          "count": 5,
+          "name": "18719"
+        },
+        {
+          "count": 1,
+          "name": "18723"
+        },
+        {
+          "count": 4,
+          "name": "18725"
+        },
+        {
+          "count": 5,
+          "name": "18726"
+        },
+        {
+          "count": 3,
+          "name": "18727"
+        },
+        {
+          "count": 1,
+          "name": "18732"
+        },
+        {
+          "count": 8,
+          "name": "18733"
+        },
+        {
+          "count": 2,
+          "name": "18734"
+        },
+        {
+          "count": 1,
+          "name": "18739"
+        },
+        {
+          "count": 6,
+          "name": "18740"
+        },
+        {
+          "count": 1,
+          "name": "18741"
+        },
+        {
+          "count": 3,
+          "name": "18747"
+        },
+        {
+          "count": 2,
+          "name": "18748"
+        },
+        {
+          "count": 1,
+          "name": "18751"
+        },
+        {
+          "count": 1,
+          "name": "18754"
+        },
+        {
+          "count": 1,
+          "name": "18759"
+        },
+        {
+          "count": 2,
+          "name": "18760"
+        },
+        {
+          "count": 4,
+          "name": "18761"
+        },
+        {
+          "count": 3,
+          "name": "18762"
+        },
+        {
+          "count": 1,
+          "name": "18768"
+        },
+        {
+          "count": 1,
+          "name": "18769"
+        },
+        {
+          "count": 1,
+          "name": "18776"
+        },
+        {
+          "count": 1,
+          "name": "18779"
+        },
+        {
+          "count": 1,
+          "name": "18781"
+        },
+        {
+          "count": 2,
+          "name": "18782"
+        },
+        {
+          "count": 2,
+          "name": "18790"
+        },
+        {
+          "count": 2,
+          "name": "18796"
+        },
+        {
+          "count": 1,
+          "name": "18797"
+        },
+        {
+          "count": 1,
+          "name": "18803"
+        },
+        {
+          "count": 7,
+          "name": "18808"
+        },
+        {
+          "count": 1,
+          "name": "18814"
+        },
+        {
+          "count": 1,
+          "name": "18817"
+        },
+        {
+          "count": 1,
+          "name": "18824"
+        },
+        {
+          "count": 1,
+          "name": "18842"
+        },
+        {
+          "count": 1,
+          "name": "18866"
+        },
+        {
+          "count": 1,
+          "name": "18870"
+        },
+        {
+          "count": 6,
+          "name": "18900"
+        },
+        {
+          "count": 1,
+          "name": "18901"
+        },
+        {
+          "count": 1,
+          "name": "18902"
+        },
+        {
+          "count": 1,
+          "name": "18912"
+        },
+        {
+          "count": 1,
+          "name": "18933"
+        },
+        {
+          "count": 1,
+          "name": "18938"
+        },
+        {
+          "count": 1,
+          "name": "18961"
+        },
+        {
+          "count": 1,
+          "name": "18990"
+        },
+        {
+          "count": 2,
+          "name": "18991"
+        }
+      ],
+      "cityname": [
+        {
+          "count": 591,
+          "name": "上海"
+        },
+        {
+          "count": 561,
+          "name": "北京"
+        },
+        {
+          "count": 205,
+          "name": "成都"
+        },
+        {
+          "count": 202,
+          "name": "天津"
+        },
+        {
+          "count": 197,
+          "name": "杭州"
+        },
+        {
+          "count": 147,
+          "name": "深圳"
+        },
+        {
+          "count": 142,
+          "name": "广州"
+        },
+        {
+          "count": 128,
+          "name": "苏州"
+        },
+        {
+          "count": 116,
+          "name": "武汉"
+        },
+        {
+          "count": 109,
+          "name": "重庆"
+        },
+        {
+          "count": 107,
+          "name": "南京"
+        },
+        {
+          "count": 107,
+          "name": "西安"
+        },
+        {
+          "count": 67,
+          "name": "长沙"
+        },
+        {
+          "count": 65,
+          "name": "宁波"
+        },
+        {
+          "count": 64,
+          "name": "青岛"
+        },
+        {
+          "count": 59,
+          "name": "沈阳"
+        },
+        {
+          "count": 57,
+          "name": "大连"
+        },
+        {
+          "count": 52,
+          "name": "郑州"
+        },
+        {
+          "count": 50,
+          "name": "厦门"
+        },
+        {
+          "count": 42,
+          "name": "济南"
+        },
+        {
+          "count": 40,
+          "name": "昆明"
+        },
+        {
+          "count": 39,
+          "name": "南宁"
+        },
+        {
+          "count": 39,
+          "name": "合肥"
+        },
+        {
+          "count": 39,
+          "name": "太原"
+        },
+        {
+          "count": 38,
+          "name": "哈尔滨"
+        },
+        {
+          "count": 38,
+          "name": "无锡"
+        },
+        {
+          "count": 31,
+          "name": "珠海"
+        },
+        {
+          "count": 28,
+          "name": "佛山"
+        },
+        {
+          "count": 23,
+          "name": "海口"
+        },
+        {
+          "count": 20,
+          "name": "石家庄"
+        },
+        {
+          "count": 19,
+          "name": "南昌"
+        },
+        {
+          "count": 18,
+          "name": "南通"
+        },
+        {
+          "count": 18,
+          "name": "绍兴"
+        },
+        {
+          "count": 18,
+          "name": "长春"
+        },
+        {
+          "count": 17,
+          "name": "呼和浩特"
+        },
+        {
+          "count": 15,
+          "name": "福州"
+        },
+        {
+          "count": 11,
+          "name": "常州"
+        },
+        {
+          "count": 10,
+          "name": "惠州"
+        },
+        {
+          "count": 10,
+          "name": "烟台"
+        },
+        {
+          "count": 9,
+          "name": "丽水"
+        },
+        {
+          "count": 9,
+          "name": "衡水"
+        },
+        {
+          "count": 9,
+          "name": "贵阳"
+        },
+        {
+          "count": 8,
+          "name": "江门"
+        },
+        {
+          "count": 8,
+          "name": "河源"
+        },
+        {
+          "count": 7,
+          "name": "中山"
+        },
+        {
+          "count": 7,
+          "name": "兰州"
+        },
+        {
+          "count": 7,
+          "name": "包头"
+        },
+        {
+          "count": 7,
+          "name": "吉安"
+        },
+        {
+          "count": 7,
+          "name": "廊坊"
+        },
+        {
+          "count": 7,
+          "name": "银川"
+        },
+        {
+          "count": 6,
+          "name": "聊城"
+        },
+        {
+          "count": 5,
+          "name": "三亚"
+        },
+        {
+          "count": 5,
+          "name": "东莞"
+        },
+        {
+          "count": 5,
+          "name": "台州"
+        },
+        {
+          "count": 5,
+          "name": "泉州"
+        },
+        {
+          "count": 5,
+          "name": "遵义"
+        },
+        {
+          "count": 5,
+          "name": "鄂尔多斯"
+        },
+        {
+          "count": 5,
+          "name": "马鞍山"
+        },
+        {
+          "count": 5,
+          "name": "黄冈"
+        },
+        {
+          "count": 4,
+          "name": "兴安盟"
+        },
+        {
+          "count": 4,
+          "name": "唐山"
+        },
+        {
+          "count": 4,
+          "name": "株洲"
+        },
+        {
+          "count": 4,
+          "name": "萍乡"
+        },
+        {
+          "count": 4,
+          "name": "金华"
+        },
+        {
+          "count": 3,
+          "name": "六盘水"
+        },
+        {
+          "count": 3,
+          "name": "吉林"
+        },
+        {
+          "count": 3,
+          "name": "大理"
+        },
+        {
+          "count": 3,
+          "name": "安庆"
+        },
+        {
+          "count": 3,
+          "name": "安康"
+        },
+        {
+          "count": 3,
+          "name": "徐州"
+        },
+        {
+          "count": 3,
+          "name": "柳州"
+        },
+        {
+          "count": 3,
+          "name": "泰安"
+        },
+        {
+          "count": 3,
+          "name": "洛阳"
+        },
+        {
+          "count": 3,
+          "name": "济宁"
+        },
+        {
+          "count": 3,
+          "name": "温州"
+        },
+        {
+          "count": 3,
+          "name": "秦皇岛"
+        },
+        {
+          "count": 3,
+          "name": "舟山"
+        },
+        {
+          "count": 3,
+          "name": "辽阳"
+        },
+        {
+          "count": 2,
+          "name": "中国香港"
+        },
+        {
+          "count": 2,
+          "name": "临沂"
+        },
+        {
+          "count": 2,
+          "name": "乌鲁木齐"
+        },
+        {
+          "count": 2,
+          "name": "嘉兴"
+        },
+        {
+          "count": 2,
+          "name": "宜昌"
+        },
+        {
+          "count": 2,
+          "name": "宿迁"
+        },
+        {
+          "count": 2,
+          "name": "延安"
+        },
+        {
+          "count": 2,
+          "name": "抚州"
+        },
+        {
+          "count": 2,
+          "name": "泰州"
+        },
+        {
+          "count": 2,
+          "name": "湖州"
+        },
+        {
+          "count": 2,
+          "name": "滨州"
+        },
+        {
+          "count": 2,
+          "name": "盐城"
+        },
+        {
+          "count": 2,
+          "name": "营口"
+        },
+        {
+          "count": 2,
+          "name": "蚌埠"
+        },
+        {
+          "count": 1,
+          "name": "中国澳门"
+        },
+        {
+          "count": 1,
+          "name": "丽江"
+        },
+        {
+          "count": 1,
+          "name": "乐山"
+        },
+        {
+          "count": 1,
+          "name": "九江"
+        },
+        {
+          "count": 1,
+          "name": "保定"
+        },
+        {
+          "count": 1,
+          "name": "凉山"
+        },
+        {
+          "count": 1,
+          "name": "北海"
+        },
+        {
+          "count": 1,
+          "name": "南平"
+        },
+        {
+          "count": 1,
+          "name": "咸阳"
+        },
+        {
+          "count": 1,
+          "name": "国际及港澳台"
+        },
+        {
+          "count": 1,
+          "name": "宁德"
+        },
+        {
+          "count": 1,
+          "name": "岳阳"
+        },
+        {
+          "count": 1,
+          "name": "广元"
+        },
+        {
+          "count": 1,
+          "name": "张家口"
+        },
+        {
+          "count": 1,
+          "name": "德阳"
+        },
+        {
+          "count": 1,
+          "name": "扬州"
+        },
+        {
+          "count": 1,
+          "name": "拉萨"
+        },
+        {
+          "count": 1,
+          "name": "新乡"
+        },
+        {
+          "count": 1,
+          "name": "桂林"
+        },
+        {
+          "count": 1,
+          "name": "汕头"
+        },
+        {
+          "count": 1,
+          "name": "沧州"
+        },
+        {
+          "count": 1,
+          "name": "淄博"
+        },
+        {
+          "count": 1,
+          "name": "淮北"
+        },
+        {
+          "count": 1,
+          "name": "绵阳"
+        },
+        {
+          "count": 1,
+          "name": "芜湖"
+        },
+        {
+          "count": 1,
+          "name": "西宁"
+        },
+        {
+          "count": 1,
+          "name": "达州"
+        },
+        {
+          "count": 1,
+          "name": "连云港"
+        },
+        {
+          "count": 1,
+          "name": "通化"
+        },
+        {
+          "count": 1,
+          "name": "邢台"
+        },
+        {
+          "count": 1,
+          "name": "锦州"
+        },
+        {
+          "count": 1,
+          "name": "镇江"
+        },
+        {
+          "count": 1,
+          "name": "鞍山"
+        }
+      ],
+      "categoryname": [
+        {
+          "count": 794,
+          "name": "音乐会"
+        },
+        {
+          "count": 774,
+          "name": "话剧歌剧"
+        },
+        {
+          "count": 599,
+          "name": "演唱会"
+        },
+        {
+          "count": 577,
+          "name": "曲苑杂坛"
+        },
+        {
+          "count": 464,
+          "name": "展览休闲"
+        },
+        {
+          "count": 83,
+          "name": "舞蹈芭蕾"
+        },
+        {
+          "count": 20,
+          "name": "其他"
+        },
+        {
+          "count": 19,
+          "name": "体育"
+        }
+      ],
+      "tag_names": [
+        {
+          "count": 463,
+          "name": "儿童亲子"
+        }
+      ]
+    },
+    "maxPage": 160,
+    "maxTotalResults": 3793,
+    "nextPage": 2,
+    "onePageSize": 30,
+    "previousPage": 1,
+    "resultData": [
+      {
+        "activityTags": [],
+        "actors": "艺人：满舒克、黄旭、王以太、万妮达",
+        "business": 0,
+        "categoryid": 0,
+        "categoryname": "音乐会",
+        "cityid": 0,
+        "cityname": "上海",
+        "couponTags": [],
+        "description": "艺人：满舒克、黄旭、王以太、万妮达",
+        "id": "1_1_632230902089",
+        "imgurl": "2027341724",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 0,
+        "name": "2020苏州M_DSK跨年限定日",
+        "nameNoHtml": "2020苏州M_DSK跨年限定日",
+        "price": 260.0,
+        "price_str": "260-720",
+        "pricehigh": 720.0,
+        "privilegeTags": [],
+        "projectid": 632230902089,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.31-2021.01.01",
+        "sitestatus": 3,
+        "subcategoryid": 12,
+        "subcategoryname": "音乐节",
+        "subhead": "",
+        "venue": "苏州相城活力岛",
+        "venuecity": "苏州",
+        "venueid": 1406,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01jD1NPt2GdSHPEgDsS_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 1,
+        "categoryname": "话剧",
+        "cityid": 1,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632675516076",
+        "imgurl": "2031787864",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 0,
+        "name": "2021花开天下·国韵新年演唱会",
+        "nameNoHtml": "2021花开天下·国韵新年演唱会",
+        "price": 380.0,
+        "price_str": "380-1280",
+        "pricehigh": 1280.0,
+        "privilegeTags": [],
+        "projectid": 632675516076,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.20 周日 19:00",
+        "sitestatus": 3,
+        "subcategoryid": 13,
+        "subcategoryname": "其他",
+        "subhead": "",
+        "venue": "成都市凤凰山露天音乐公园",
+        "venuecity": "成都",
+        "venueid": 1561006,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN016inWz42GdSHkJ9F7l_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 2,
+        "categoryname": "歌剧",
+        "cityid": 2,
+        "cityname": "成都",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_630948840878",
+        "imgurl": "2014521112",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花2020奇幻爆笑贺岁舞台剧《动物视界》",
+        "nameNoHtml": "开心麻花2020奇幻爆笑贺岁舞台剧《动物视界》",
+        "price": 80.0,
+        "price_str": "80-1080",
+        "pricehigh": 1080.0,
+        "privilegeTags": [],
+        "projectid": 630948840878,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.06-12.30",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "世纪剧院",
+        "venuecity": "北京",
+        "venueid": 107,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01jsyFcW2GdSHGE4TV8_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 872,
+        "cityname": "上海",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_631656028017",
+        "imgurl": "2021592984",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "韩雪、刘令飞领衔主演音乐剧《白夜行》",
+        "nameNoHtml": "韩雪、刘令飞领衔主演音乐剧《白夜行》",
+        "price": 80.0,
+        "price_str": "80-1080",
+        "pricehigh": 1080.0,
+        "privilegeTags": [],
+        "projectid": 631656028017,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.24-2021.01.03",
+        "sitestatus": 3,
+        "subcategoryid": 22,
+        "subcategoryname": "音乐剧",
+        "subhead": "",
+        "venue": "上汽上海文化广场",
+        "venuecity": "上海",
+        "venueid": 53497,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01nGg2Nw2GdSHNvXy5S_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "艺人：崔健、木马乐队、福禄寿FloruitShow、康姆士COM'Z、左右乐队",
+        "business": 0,
+        "categoryid": 1,
+        "categoryname": "演唱会",
+        "cityid": 1612,
+        "cityname": "温州",
+        "couponTags": [],
+        "description": "艺人：崔健、木马乐队、福禄寿FloruitShow、康姆士COM'Z、左右乐队",
+        "id": "1_1_632269764265",
+        "imgurl": "2027730346",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 0,
+        "name": "2020-2021楠溪江迷笛东海跨年音乐节",
+        "nameNoHtml": "2020-2021楠溪江迷笛东海跨年音乐节",
+        "price": 280.0,
+        "price_str": "280-660",
+        "pricehigh": 660.0,
+        "privilegeTags": [],
+        "projectid": 632269764265,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.31-2021.01.02",
+        "sitestatus": 3,
+        "subcategoryid": 12,
+        "subcategoryname": "音乐节",
+        "subhead": "",
+        "venue": "楠溪江滩地音乐公园",
+        "venuecity": "温州",
+        "venueid": 92615,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN013mHULD2GdSHRRl9Y6_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 1,
+        "categoryname": "演唱会",
+        "cityid": 1185,
+        "cityname": "海口",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632183376230",
+        "imgurl": "2026866466",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 0,
+        "name": "陈楚生「你还好吗」2021巡回演唱会新年特别场 海口站",
+        "nameNoHtml": "陈楚生「你还好吗」2021巡回演唱会新年特别场 海口站",
+        "price": 280.0,
+        "price_str": "280-780",
+        "pricehigh": 780.0,
+        "privilegeTags": [],
+        "projectid": 632183376230,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2021.01.01 周五 20:00",
+        "sitestatus": 3,
+        "subcategoryid": 13,
+        "subcategoryname": "其他",
+        "subhead": "",
+        "venue": "海口观澜湖华谊冯小刚电影公社影视基地1号摄影棚",
+        "venuecity": "海口",
+        "venueid": 2618003,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01ull63t2GdSHeCQnYP_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 852,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_630868874520",
+        "imgurl": "2013721449",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花经典爆笑舞台剧《乌龙山伯爵》",
+        "nameNoHtml": "开心麻花经典爆笑舞台剧《乌龙山伯爵》",
+        "price": 80.0,
+        "price_str": "80-1080",
+        "pricehigh": 1080.0,
+        "privilegeTags": [],
+        "projectid": 630868874520,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.06-12.27",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "北京展览馆剧场",
+        "venuecity": "北京",
+        "venueid": 26,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN019l3W882GdSH3mOcVo_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "艺人：阿云嘎、夏振凯、安悦溪",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 872,
+        "cityname": "上海",
+        "couponTags": [],
+        "description": "艺人：阿云嘎、夏振凯、安悦溪",
+        "id": "1_1_631702390727",
+        "imgurl": "2022056611",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "音乐剧《在远方》",
+        "nameNoHtml": "音乐剧《在远方》",
+        "price": 80.0,
+        "price_str": "80-1080",
+        "pricehigh": 1080.0,
+        "privilegeTags": [],
+        "projectid": 631702390727,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2021.01.07-01.10",
+        "sitestatus": 3,
+        "subcategoryid": 22,
+        "subcategoryname": "音乐剧",
+        "subhead": "",
+        "venue": "上汽上海文化广场",
+        "venuecity": "上海",
+        "venueid": 53497,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN010lsjvA2GdSHMaHZlw_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 872,
+        "cityname": "上海",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632845970295",
+        "imgurl": "2033492406",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "赖声川编剧、导演，倪妮主演话剧《幺幺洞捌》",
+        "nameNoHtml": "赖声川编剧、导演，倪妮主演话剧《幺幺洞捌》",
+        "price": 280.0,
+        "price_str": "280-1108",
+        "pricehigh": 1108.0,
+        "privilegeTags": [],
+        "projectid": 632845970295,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.30-2021.01.03",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "上剧场",
+        "venuecity": "上海",
+        "venueid": 60969,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i1/2251059038/O1CN013bRFhI2GdSHdykcBh_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "艺人：阿云嘎、夏振凯、安悦溪",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 852,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "艺人：阿云嘎、夏振凯、安悦溪",
+        "id": "1_1_631686042983",
+        "imgurl": "2021893133",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "音乐剧《在远方》",
+        "nameNoHtml": "音乐剧《在远方》",
+        "price": 99.0,
+        "price_str": "99-1080",
+        "pricehigh": 1080.0,
+        "privilegeTags": [],
+        "projectid": 631686042983,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.24-12.27",
+        "sitestatus": 3,
+        "subcategoryid": 22,
+        "subcategoryname": "音乐剧",
+        "subhead": "",
+        "venue": "天桥艺术中心-大剧场",
+        "venuecity": "北京",
+        "venueid": 59432,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01Gb3ldL2GdSHNxUO3p_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 1,
+        "categoryname": "演唱会",
+        "cityid": 2648,
+        "cityname": "哈尔滨",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_633115183785",
+        "imgurl": "2036184541",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 0,
+        "name": "「一两大梦」二手玫瑰2020-2021跨年演唱会",
+        "nameNoHtml": "「一两大梦」二手玫瑰2020-2021跨年演唱会",
+        "price": 365.0,
+        "price_str": "365-521",
+        "pricehigh": 521.0,
+        "privilegeTags": [],
+        "projectid": 633115183785,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.31 周四 20:00",
+        "sitestatus": 3,
+        "subcategoryid": 13,
+        "subcategoryname": "其他",
+        "subhead": "",
+        "venue": "哈尔滨国际会展体育中心体育馆",
+        "venuecity": "哈尔滨",
+        "venueid": 282,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01Vo3sdF2GdSHYGmYsJ_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 872,
+        "cityname": "上海",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632232513973",
+        "imgurl": "2027357843",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "【上海站】音乐剧《献给阿尔吉侬的花束》12月23日-1月3日",
+        "nameNoHtml": "【上海站】音乐剧《献给阿尔吉侬的花束》12月23日-1月3日",
+        "price": 180.0,
+        "price_str": "180-580",
+        "pricehigh": 580.0,
+        "privilegeTags": [],
+        "projectid": 632232513973,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.23-2021.01.03",
+        "sitestatus": 3,
+        "subcategoryid": 22,
+        "subcategoryname": "音乐剧",
+        "subhead": "",
+        "venue": "中国大戏院",
+        "venuecity": "上海",
+        "venueid": 236,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01S0bXpe2GdSHUO4rQ8_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 852,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_631361154857",
+        "imgurl": "2018644252",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "方旭戏剧作品《牛天赐》",
+        "nameNoHtml": "方旭戏剧作品《牛天赐》",
+        "price": 180.0,
+        "price_str": "180-980",
+        "pricehigh": 980.0,
+        "privilegeTags": [],
+        "projectid": 631361154857,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.16-12.20",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "天桥艺术中心-大剧场",
+        "venuecity": "北京",
+        "venueid": 59432,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN017zzoBK2GdSHPaDL4k_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 852,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632874941858",
+        "imgurl": "2033782122",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花2018年底大戏《窗前不止明月光》",
+        "nameNoHtml": "开心麻花2018年底大戏《窗前不止明月光》",
+        "price": 80.0,
+        "price_str": "80-1080",
+        "pricehigh": 1080.0,
+        "privilegeTags": [],
+        "projectid": 632874941858,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2021.01.06-01.10",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "地质礼堂剧场",
+        "venuecity": "北京",
+        "venueid": 917,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01OSDKA12GdSHclf4wD_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 852,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_631770822218",
+        "imgurl": "2022740926",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花首部互动体验式喜剧《偷心晚宴》",
+        "nameNoHtml": "开心麻花首部互动体验式喜剧《偷心晚宴》",
+        "price": 280.0,
+        "price_str": "280-330",
+        "pricehigh": 330.0,
+        "privilegeTags": [],
+        "projectid": 631770822218,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.06-12.31",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "开心麻花磁剧场",
+        "venuecity": "北京",
+        "venueid": 93001,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01fIPADn2GdSHKyH1sl_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 872,
+        "cityname": "上海",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632532745307",
+        "imgurl": "2030360157",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花首部悬疑惊悚喜剧《醉后赢家》",
+        "nameNoHtml": "开心麻花首部悬疑惊悚喜剧《醉后赢家》",
+        "price": 100.0,
+        "price_str": "100-580",
+        "pricehigh": 580.0,
+        "privilegeTags": [],
+        "projectid": 632532745307,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2021.01.23-01.24",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "开心麻花剧场(上海南翔印象城MEGA店)",
+        "venuecity": "上海",
+        "venueid": 2757020,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i2/2251059038/O1CN01iP6Uof2GdSHY183wY_!!2-item_pic.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 1,
+        "categoryname": "演唱会",
+        "cityid": 852,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632732801847",
+        "imgurl": "2032360722",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 0,
+        "name": "2020第六届北京国际流行音乐周 胡66《123》北京音乐派对",
+        "nameNoHtml": "2020第六届北京国际流行音乐周 胡66《123》北京音乐派对",
+        "price": 116.0,
+        "price_str": "116-166",
+        "pricehigh": 166.0,
+        "privilegeTags": [],
+        "projectid": 632732801847,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2021.01.23 周六 19:30",
+        "sitestatus": 3,
+        "subcategoryid": 48,
+        "subcategoryname": "livehouse",
+        "subhead": "",
+        "venue": "糖果TANGO-雍和宫店三层",
+        "venuecity": "北京",
+        "venueid": 27,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01yDG4lT2GdSHc4TmEv_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 1580,
+        "cityname": "杭州",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_631976395062",
+        "imgurl": "2024796654",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "【限时优惠】开心麻花年度口碑新剧《贼想得到你》",
+        "nameNoHtml": "【限时优惠】开心麻花年度口碑新剧《贼想得到你》",
+        "price": 180.0,
+        "price_str": "180-1180",
+        "pricehigh": 1180.0,
+        "privilegeTags": [],
+        "projectid": 631976395062,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.23-2021.01.03",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "杭州东坡大剧院",
+        "venuecity": "杭州",
+        "venueid": 1371,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN017oTUIG2GdSHISYNJa_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 2,
+        "categoryname": "音乐会",
+        "cityid": 1038,
+        "cityname": "南京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_633154266676",
+        "imgurl": "2036575370",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "2021荔枝新年音乐会",
+        "nameNoHtml": "2021荔枝新年音乐会",
+        "price": 160.0,
+        "price_str": "160-600",
+        "pricehigh": 600.0,
+        "privilegeTags": [],
+        "projectid": 633154266676,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.26 周六 19:30",
+        "sitestatus": 3,
+        "subcategoryid": 18,
+        "subcategoryname": "其他",
+        "subhead": "",
+        "venue": "江苏荔枝大剧院",
+        "venuecity": "南京",
+        "venueid": 92902,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01vaS58y2GdSHhEsBp2_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 5,
+        "categoryname": "曲苑杂坛",
+        "cityid": 852,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632906555205",
+        "imgurl": "2034098256",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "《黄西脱口秀》喜剧之夜|明星--单口爆笑专场",
+        "nameNoHtml": "《黄西脱口秀》喜剧之夜|明星--单口爆笑专场",
+        "price": 99.0,
+        "price_str": "99-550",
+        "pricehigh": 550.0,
+        "privilegeTags": [],
+        "projectid": 632906555205,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.24 周四 19:30",
+        "sitestatus": 3,
+        "subcategoryid": 32,
+        "subcategoryname": "其他",
+        "subhead": "",
+        "venue": "北京喜剧院",
+        "venuecity": "北京",
+        "venueid": 54024,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01boBBLo2GdSHVIIPLL_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 7,
+        "categoryname": "展览休闲",
+        "cityid": 872,
+        "cityname": "上海",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_631593577490",
+        "imgurl": "2020968478",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 0,
+        "name": "天猫 | 2020 Sneaker Con 球鞋潮流展（上海站）",
+        "nameNoHtml": "天猫 | 2020 Sneaker Con 球鞋潮流展（上海站）",
+        "price": 280.0,
+        "price_str": "280-700",
+        "pricehigh": 700.0,
+        "privilegeTags": [],
+        "projectid": 631593577490,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.19-12.20",
+        "sitestatus": 3,
+        "subcategoryid": 38,
+        "subcategoryname": "展会",
+        "subhead": "",
+        "venue": "上海世博展览馆",
+        "venuecity": "上海",
+        "venueid": 940007,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01VOZN3b2GdSHNPkS8U_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 1703,
+        "cityname": "沈阳",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_631574188292",
+        "imgurl": "2020774586",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花王牌喜剧《乌龙山伯爵》沈阳站",
+        "nameNoHtml": "开心麻花王牌喜剧《乌龙山伯爵》沈阳站",
+        "price": 80.0,
+        "price_str": "80-1728",
+        "pricehigh": 1728.0,
+        "privilegeTags": [],
+        "projectid": 631574188292,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.23-12.25",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "辽宁大剧院大剧场",
+        "venuecity": "沈阳",
+        "venueid": 1035,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01H6CP0v2GdSHSHilXq_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 586,
+        "cityname": "武汉",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_631356129951",
+        "imgurl": "2018594003",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花爆笑舞台剧《婿事待发》——武汉站",
+        "nameNoHtml": "开心麻花爆笑舞台剧《婿事待发》——武汉站",
+        "price": 100.0,
+        "price_str": "100-880",
+        "pricehigh": 880.0,
+        "privilegeTags": [],
+        "projectid": 631356129951,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.18-12.20",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "中南剧场大剧场",
+        "venuecity": "武汉",
+        "venueid": 1308,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01kaKB9M2GdSHP63olx_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 1038,
+        "cityname": "南京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632301807782",
+        "imgurl": "2028050781",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花爆笑喜剧《莎士比亚别生气》",
+        "nameNoHtml": "开心麻花爆笑喜剧《莎士比亚别生气》",
+        "price": 180.0,
+        "price_str": "180-880",
+        "pricehigh": 880.0,
+        "privilegeTags": [],
+        "projectid": 632301807782,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.24-12.27",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "江苏紫金大戏院",
+        "venuecity": "南京",
+        "venueid": 23,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01ryZmPX2GdSHFEkNI1_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 1580,
+        "cityname": "杭州",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_633106539697",
+        "imgurl": "2036098100",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "赖声川编剧、导演，倪妮主演话剧《幺幺洞捌》",
+        "nameNoHtml": "赖声川编剧、导演，倪妮主演话剧《幺幺洞捌》",
+        "price": 280.0,
+        "price_str": "280-1108",
+        "pricehigh": 1108.0,
+        "privilegeTags": [],
+        "projectid": 633106539697,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2021.01.08-01.09",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "杭州大剧院(歌剧院)",
+        "venuecity": "杭州",
+        "venueid": 364,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i2/2251059038/O1CN01sCqUyF2GdSHYAoJXf_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 872,
+        "cityname": "上海",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_630661380969",
+        "imgurl": "2011646513",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花重磅新戏《贼想得到你》",
+        "nameNoHtml": "开心麻花重磅新戏《贼想得到你》",
+        "price": 80.0,
+        "price_str": "80-1180",
+        "pricehigh": 1180.0,
+        "privilegeTags": [],
+        "projectid": 630661380969,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.08-12.13",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "美琪大戏院",
+        "venuecity": "上海",
+        "venueid": 57,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i4/2251059038/O1CN01jAyCoN2GdSHFuN7qa_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 702,
+        "cityname": "长沙",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_631076256295",
+        "imgurl": "2015795266",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花爆笑舞台剧《莎士比亚别生气》",
+        "nameNoHtml": "开心麻花爆笑舞台剧《莎士比亚别生气》",
+        "price": 100.0,
+        "price_str": "100-1320",
+        "pricehigh": 1320.0,
+        "privilegeTags": [],
+        "projectid": 631076256295,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.12-12.13",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "长沙梅溪湖国际文化艺术中心大剧院",
+        "venuecity": "长沙",
+        "venueid": 91874,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i1/2251059038/O1CN01RkaryU2GdSHOr232e_!!2251059038.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 1580,
+        "cityname": "杭州",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632969059040",
+        "imgurl": "2034723294",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "开心麻花跨年大戏《乌龙山伯爵》",
+        "nameNoHtml": "开心麻花跨年大戏《乌龙山伯爵》",
+        "price": 180.0,
+        "price_str": "180-1180",
+        "pricehigh": 1180.0,
+        "privilegeTags": [],
+        "projectid": 632969059040,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.30-2021.01.03",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "浙江胜利剧院",
+        "venuecity": "杭州",
+        "venueid": 739,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i3/2251059038/O1CN01hTOgPe2GdSHZcXuQF_!!2251059038.png"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 3,
+        "categoryname": "话剧歌剧",
+        "cityid": 852,
+        "cityname": "北京",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_633472910781",
+        "imgurl": "2039761811",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 0,
+        "issuperticket": 0,
+        "isxuanzuo": 0,
+        "name": "北京银行·濮哥读美文 听见美·中外经典戏剧朗读会",
+        "nameNoHtml": "北京银行·濮哥读美文 听见美·中外经典戏剧朗读会",
+        "price": 100.0,
+        "price_str": "100-1000",
+        "pricehigh": 1000.0,
+        "privilegeTags": [],
+        "projectid": 633472910781,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2021.01.02-01.03",
+        "sitestatus": 3,
+        "subcategoryid": 19,
+        "subcategoryname": "话剧",
+        "subhead": "",
+        "venue": "保利剧院",
+        "venuecity": "北京",
+        "venueid": 39,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/i3/2251059038/O1CN01fXC4Ry2GdSHfXD7XE_!!0-item_pic.jpg"
+      },
+      {
+        "activityTags": [],
+        "actors": "",
+        "business": 0,
+        "categoryid": 5,
+        "categoryname": "曲苑杂坛",
+        "cityid": 200,
+        "cityname": "重庆",
+        "couponTags": [],
+        "description": "",
+        "id": "1_1_632838097304",
+        "imgurl": "2033413677",
+        "isAtmospheric": false,
+        "iseticket": 0,
+        "isgeneralagent": 1,
+        "issuperticket": 0,
+        "isxuanzuo": 1,
+        "name": "2021扯馆儿跨年夜——暨方言喜剧盛典",
+        "nameNoHtml": "2021扯馆儿跨年夜——暨方言喜剧盛典",
+        "price": 80.0,
+        "price_str": "80-680",
+        "pricehigh": 680.0,
+        "privilegeTags": [],
+        "projectid": 632838097304,
+        "promotionTags": [],
+        "showstatus": "售票中",
+        "showtag": "",
+        "showtime": "2020.12.31 周四 20:00",
+        "sitestatus": 3,
+        "subcategoryid": 32,
+        "subcategoryname": "其他",
+        "subhead": "",
+        "venue": "重庆市人民大礼堂",
+        "venuecity": "重庆",
+        "venueid": 257,
+        "verticalPic": "https://img.alicdn.com/bao/uploaded/https://img.alicdn.com/imgextra/i4/2251059038/O1CN01ZxCKHv2GdSHhz1re8_!!2251059038.jpg"
+      }
+    ],
+    "totalPage": 127,
+    "totalResults": 3793
+  },
+  "st": "",
+  "tsg": "0"
+}
