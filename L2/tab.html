@@ -12,27 +12,74 @@
       background: #cccccc;
       text-align: center;
     }
+    .nav-list li.active{
+      background: pink;
+      color: #ffffff;
+    }
+  
   </style>
 </head>
 <body>
   <div id="app" v-cloak>
-    <div class="w1200 block-c">
-      <ul class="flex nav-list">
-        <li v-for="(item, index) in navList" @click="activeIndex = index">{{item}}</li>
-      </ul>
-      <div v-show="activeIndex === 0">1111</div>
-      <div  v-show="activeIndex === 1">22222</div>
-      <div  v-show="activeIndex === 2">33333</div>
-    </div>
+    <el-tab>
+      <tab-item label="汽车票">汽车票汽车票汽车票</tab-item>
+      <tab-item label="火车票">火车票火车票火车票火车票</tab-item>
+      <tab-item label="飞机票">飞机票飞机票飞机票飞机票</tab-item>
+    </el-tab>
   </div>
 </body>
+
 <script src="vue.js"></script>
 <script>
+  Vue.component('elTab', {
+    template:`
+    <div class="w1200 block-c">
+      <ul class="flex nav-list">
+        {{activeIndex}}
+        <li v-for="(item, index) in navlist" @click="activeIndex = index" :class="{active: activeIndex===index}">{{item}}</li>
+      </ul>
+      <slot></slot>
+    </div>
+    `,
+
+    data() {
+      return {
+        activeIndex: 0,
+        navlist:[]        
+      }
+    },
+    mounted() {
+      this.$children[this.activeIndex].isActive = true
+      this.navlist = this.$children.map(r => r.label)
+    },
+    watch:{
+      activeIndex () {
+        this.$children.forEach((item, index) =>{
+        // if (index === this.activeIndex) {
+        //   item.isActive = true
+        // }
+          item.isActive = this.activeIndex === index
+      })
+      }
+    }
+  })
+  Vue.component('tabItem', {
+    template: `<div v-show="isActive"><slot></slot></div>`,
+    props:['label'],
+    data() {
+      return {
+        isActive: false
+      }
+    },
+    mounted() {
+      // this.$parent.navlist.push(this.label)
+      
+    },
+  })
   let app = new Vue({
     el: '#app',
     data() {
       return {
-        activeIndex: 0,
         navList: ['音乐', '电影', '聊天']
       }
     },
