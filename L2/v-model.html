@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>组件的v-model</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    {{num1}}
+    <counter :num="num1" @change="num1 = $event"></counter>
+    {{num2}}    
+    <counter :num="num2" @change="num2 = $event"></counter>
+    {{num3}}
+    
+    <counter :num="num3" @change="num3 = $event"></counter>
+  </div>
+</body>
+<script src="vue.js"></script>
+<script>
+  Vue.component("counter", {
+    template: `
+      <div>
+        <button @click="_num--">-</button>
+        <input type="text" v-model.number.trim="p_num">
+        <button @click="p_num++">+</button>
+      </div>
+    `,
+    props: ['num'],
+    data() {
+      return { 
+        p_num : this.num
+      }
+    },
+    watch: {
+      p_num (val) {
+        this.$emit('change',val)
+      }
+    }
+  })
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        num1: 10,    
+        num2: 20,    
+        num3: 30, 
+      }
+    },
+  })
+</script>
+</html>
