@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>表格组件二</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+   table {
+      width: 100%;
+      text-align: center;
+      border: 1px solid red;
+      border-collapse: collapse;
+
+    }
+    table th{
+      border: 1px solid red;
+    }
+    table tr td {
+      padding: 20px 0;
+      border: 1px solid red;
+    } 
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <div>
+      <table>
+        <th v-for="item in cols">{{item.label}}</th>
+        <tr v-for="item in list">
+          <td v-for="item1 in cols">
+            {{item[item1.feild]}}
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+<script src="vue.js"></script>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        cols: [
+          {feild: 'id', label: '编号'},
+          {feild: 'name', label: '姓名'},
+          {feild: 'age', label: '年龄'},
+        ],
+        list: [
+          {
+            id: '1',
+            name: 'xxx',
+            age: 20
+          },
+          {
+            id: '2',
+            name: 'yyy',
+            age: 27
+          },
+        ]
+      }
+    },
+  })
+</script>
+</html>
