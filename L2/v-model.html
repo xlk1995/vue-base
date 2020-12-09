@@ -13,12 +13,12 @@
 <body>
   <div id="app" v-cloak>
     {{num1}}
-    <counter v-model="num1"></counter>
+    <counter :num.sync="num1"></counter>
     {{num2}}    
-    <counter v-model="num2"></counter>
+    <counter :num.sync="num2"></counter>
     {{num3}}
     
-    <counter v-model="num3"></counter>
+    <counter :num.sync="num3"></counter>
   </div>
 </body>
 <script src="vue.js"></script>
@@ -26,20 +26,20 @@
   Vue.component("counter", {
     template: `
       <div>
-        <button @click="_num--">-</button>
+        <button @click="p_num--">-</button>
         <input type="text" v-model.number.trim="p_num">
         <button @click="p_num++">+</button>
       </div>
     `,
-    props: ['value'],
+    props: ['num'],
     data() {
       return { 
-        p_num : this.value
+        p_num: this.num
       }
     },
     watch: {
       p_num (val) {
-        this.$emit('input',val)
+        this.$emit('update:num',val)
       }
     }
   })
