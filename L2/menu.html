@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>垂直菜单</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+    .menu {
+      width: 200px;
+      background: rgb(83, 168, 255);
+      height: 100vh;
+    }
+
+    .menu-title {
+      font-size: 18px;
+      font-weight: bold;
+      text-indent: 2px;
+      border-left: 10px solid transparent;
+      
+    }
+    .menu-title.active{
+      border-left: 10px solid rgb(83 88 255);
+    }
+    .menu-list{
+      padding-top: 20px;
+    }
+    .menu-item{
+      padding: 5px;
+    }
+    .menu-item:hover{
+      background: #4ea4fa;
+    }
+    .menu-item.active{
+      background: #409eff;
+      color: #ffffff;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app" v-cloak>
+
+    <ul class="menu">
+      <li v-for="(item, i) in menuList" :key="i" class="menu-list" @click="activeMenu = i">
+        <ul>
+          <div class="menu-title" :class="{active: activeMenu === i}">{{item.name}}</div>
+          <li v-for="(item1, j) in item.children" class="menu-item" :class="{active: activeMenuItem === j && activeMenu === i}" @click="activeMenuItem = j" v-show="activeMenu === i">
+            {{item1.name}}
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</body>
+<script src="vue.js"></script>
+<script>
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        activeMenu: 0,
+        activeMenuItem: 0,
+        menuList: [
+          {
+            name: '订单管理',
+            children: [
+              {
+                name: '出库订单'
+              },
+              {
+                name: '入库订单'
+              },
+              {
+                name: '核销订单'
+              },
+            ]
+          },
+          {
+            name: '库存管理',
+            children: [
+              {
+                name: '出库库存'
+              },
+              {
+                name: '入库库存'
+              },
+              {
+                name: '核销库存'
+              },
+            ]
+          },
+          {
+            name: '用户管理',
+            children: [
+              {
+                name: '修改手机'
+              },
+              {
+                name: '修改密码'
+              },
+              {
+                name: '修改信息'
+              },
+            ]
+          },
+
+        ]
+
+
+      }
+    },
+    watch:{
+      activeMenu () {
+        this.activeMenuItem = 0
+      }
+    }
+  })
+</script>
+
+</html>
