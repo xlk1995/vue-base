@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,38 +8,64 @@
   <title>星星评分效果</title>
   <link rel="stylesheet" href="//at.alicdn.com/t/font_2250381_v4b97shpvl9.css">
   <style>
-    .star{
+    .star {
       font-size: 50px;
     }
   </style>
 </head>
+
 <body>
   <div id="app">
-      <i class="iconfont star " :class="item <= templateScore ? 'icon-star1' : 'icon-star'" v-for="item in counter"
-        @mouseenter="templateScore = item" @mouseleave="templateScore = score"  @click="change(item)"
-      ></i>
+    <star :counter="20" color="blue" :score="5"></star>
+    <star :counter="15" color="red" :score="10"></star>
 
   </div>
-  
+
 </body>
 <script src="./vue.js"></script>
 <script>
-  let app = new Vue({
-    el: '#app',
+  Vue.component('star', {
+    template: `
+      <div>
+        <i class="iconfont star " :style="{color}" :class="item <= myTemplateScore ? 'icon-star1' : 'icon-star'" v-for="item in counter"
+        @mouseenter="myTemplateScore = item" @mouseleave="myTemplateScore =myScore"  @click="change(item)"
+        ></i>
+      </div>
+    `,
+    props:{
+      score:{
+        type: Number,
+        required: true,
+        defaut: 5
+      },
+      counter:{
+        type: Number,
+        required: true,
+        defaut:10
+      },
+      color:{
+        type: String,
+        required: true,
+        defaut: 'red'
+      }
+    },
     data() {
       return {
-        counter: 10,
-        score: 5,
-        templateScore: 5
+        myScore:this.score,
+        myTemplateScore: this.score
       }
     },
     methods: {
-      change (item) {
+      change(item) {
 
-        this.score = item
-        this.templateScore = item
+        this.myScore = item
+        this.myTemplateScore = item
       }
     },
   })
+  let app = new Vue({
+    el: '#app',
+  })
 </script>
+
 </html>
