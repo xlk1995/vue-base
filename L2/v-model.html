@@ -13,12 +13,12 @@
 <body>
   <div id="app" v-cloak>
     {{num1}}
-    <counter :num="num1" @change="num1 = $event"></counter>
+    <counter v-model="num1"></counter>
     {{num2}}    
-    <counter :num="num2" @change="num2 = $event"></counter>
+    <counter v-model="num2"></counter>
     {{num3}}
     
-    <counter :num="num3" @change="num3 = $event"></counter>
+    <counter v-model="num3"></counter>
   </div>
 </body>
 <script src="vue.js"></script>
@@ -31,15 +31,15 @@
         <button @click="p_num++">+</button>
       </div>
     `,
-    props: ['num'],
+    props: ['value'],
     data() {
       return { 
-        p_num : this.num
+        p_num : this.value
       }
     },
     watch: {
       p_num (val) {
-        this.$emit('change',val)
+        this.$emit('input',val)
       }
     }
   })
