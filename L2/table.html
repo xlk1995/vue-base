@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>表格组件一</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+    table {
+      width: 100%;
+      text-align: center;
+      border: 1px solid red;
+      border-collapse: collapse;
+
+    }
+    table th{
+      border: 1px solid red;
+    }
+    table tr td {
+      padding: 20px 0;
+      border: 1px solid red;
+    }
+    table tr.active:hover{
+      background: #cccccc;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    <div>
+      <el-table :list="list" :center="true">
+        <el-cols field="id" label="编号" ></el-cols>
+        <el-cols field="name" label="姓名"></el-cols>
+        <el-cols field="age" label="年龄"></el-cols>
+      </el-table>
+    </div>
+  </div>
+</body>
+<script src="vue.js"></script>
+<script>
+  Vue.component('el-cols', {
+    template: `
+      <th>
+        {{label}}
+      </th>
+    `,
+    props:{
+      field: {
+        type: String,
+        required: false
+      },
+      label:{
+        type: String,
+        required: false
+      },
+     
+    },
+    created() {
+      this.$parent.keylist.push(this.field)
+    },
+  })
+  Vue.component('el-table', {
+    template: `
+      <table>
+        <slot></slot>
+        <tr v-for="item in list" :class="{'active': center}">
+          <td v-for="item1 in keylist">{{item[item1]}}</td>
+        </tr>
+      </table>
+    `,
+    props:{
+      list: {
+        type: Array,
+        required: true,
+        default: []
+      },
+      center:{
+        type: Boolean,
+        required:false
+      }
+    },
+    data() {
+      return {
+        keylist: []
+      }
+    },
+  })
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+        list: [
+          {
+            id: 1,
+            name: 'xxx',
+            age: 18
+          },
+          {
+            id: 1,
+            name: 'yyy',
+            age: 28
+          },
+        ]
+      }
+    },
+  })
+</script>
+
+</html>
