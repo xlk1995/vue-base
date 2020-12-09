@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vue组件</title>
+  <link rel="stylesheet" href="../common.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div>
+    <p>
+      组件分为局部组件和全局组件。父组件向子组件传值的方法是通过props，可以用数组的方式（不推荐），好的习惯是使用对象的形式，可以设类型，是否必须传，和默认值
+    </p>
+    <p>
+      在props中的值都可以用this.xx获取，且我们不能更改props中的值，可以在data中用临时变量获取到值走再操作它
+    </p>
+    <p>
+      父组件可以通过$children获得子组件信息（不推荐），因为顺序不唯一，更好的方式是通过refs，它具有唯一性。获取父组件用$parent
+    </p>
+    <p>
+      组价的mouted是自子组件，一层层向外的，created是自父组件一层层向内
+    </p>
+  </div>
+  <div id="app" v-cloak>
+    <red color="blue" :fz="40" ref="aa">123</red>
+    <red color="red" :fz="50"  ref="bb">1234</red>
+    <red color="#ccc" :fz="60" ref="cc">12345</red>
+    <red color="pink" :fz="70" ref="dd">123456</red>
+  </div>
+</body>
+<script src="vue.js"></script>
+<script>
+  let app = new Vue({
+    el: '#app',
+    components:{
+      red:{
+        template: `
+          <div :style="{color:color, fontSize: fz+'px'}"><slot/></div>
+        `,
+        props:{
+          color:{
+            type: String,
+            required: false,
+            default: 'red'
+          },
+          fz:{
+            type: Number,
+            required: true,
+            default: 16
+          }
+        },
+        mounted() {
+          console.log(this.$parent.$el);
+          
+        },
+      }
+    },
+    mounted() {
+      console.log(this.$refs.aa.$el);
+      console.log(this.$refs.bb.$el);
+      console.log(this.$refs.cc.$el);
+      console.log(this.$refs.dd.$el);
+      
+    },
+  })
+</script>
+</html>
