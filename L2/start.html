@@ -16,8 +16,10 @@
 
 <body>
   <div id="app">
-    <star :counter="20" color="blue" :score="5"></star>
-    <star :counter="15" color="red" :score="10"></star>
+    {{wuliu}}
+    <star :counter="20" color="blue" :score="5" @change="wuliu = $event"></star>
+    {{kefu}}
+    <star :counter="15" color="red" :score="10" @change="kefu = $event"></star>
 
   </div>
 
@@ -57,14 +59,20 @@
     },
     methods: {
       change(item) {
-
         this.myScore = item
         this.myTemplateScore = item
+        this.$emit('change',item)
       }
     },
   })
   let app = new Vue({
     el: '#app',
+    data() {
+      return {
+        wuliu: '',
+        kefu: ''
+      }
+    },
   })
 </script>
 
