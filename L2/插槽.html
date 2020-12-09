@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>轮播</title>
+  <title>插槽</title>
   <link rel="stylesheet" href="../common.css">
   <style>
     .myheader{
@@ -23,13 +23,20 @@
   <div id="app" v-cloak>
     <my-header>
       
-      <template v-slot:user>
+      <template #user>
         <div>user</div>
       </template>
-      <template v-slot:logo>
+      <template #logo>
           <div>logo</div>
         </template>
     </my-header>
+    
+    <my-list :list="list">
+      <template #default="scope">
+        {{scope}}
+        <button @click = "del(scope.id)">删除</button>
+      </template>
+    </my-list>
   </div>
 </body>
 <script src="vue.js"></script>
@@ -44,11 +51,36 @@
       </header>
     `
   })
+  Vue.component('my-list', {
+    props: ['list'],
+    template: `
+      <ul style="border: 1px solid red;">
+        <li v-for="item in list">
+          {{item.name}}
+          <slot :id="item.id"></slot>
+        </li>
+      </ul>
+    `
+  })
   let app = new Vue({
     el: '#app',
     data() {
       return {
-        name: 'xx'
+        list: [
+          {
+            name: 'xx',
+            id: 1
+          },
+          {
+            name: 'yy',
+            id: 2
+          },
+        ]
+      }
+    },
+    methods: {
+      del (id) {
+        this.list = this.list.filter(r => r.id !== id)
       }
     },
   })
