@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>一个搜索框</title>
+  <link rel="stylesheet" href="../common.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_2250381_fw7pe1x5i1b.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <sb-search @search="search"></sb-search>
+  </div>
+</body>
+<script src="vue.js"></script>
+<script>
+  Vue.component('sb-search', {
+    template: `
+      <div class="search flex flex-a-c block-c" style="width: 200px; border: 1px solid #ccc;">
+        <input type="text" v-model="keywords" style="height: 30px; flex: 1; border: none;outline: none;text-indent: 3px;" >
+        <i class="iconfont icon-sousuo" style="padding: 0 5px; cursor: pointer;" @click="$emit('search',keywords)"></i>
+      </div>
+    `,
+    data() {
+      return {
+        keywords: ''
+      }
+    },
+  })
+  let app = new Vue({
+    el: '#app',
+    data() {
+      return {
+
+      }
+    },
+    methods: {
+        search (keywords) {
+          console.log(keywords);
+        }
+      },
+  })
+</script>
+</html>
